@@ -1,0 +1,143 @@
+<!doctype html>
+<!--
+  Ciabatta Club storefront · home.
+  Layout language: warm off-white page, inset white header bar, a rounded full-bleed photo hero,
+  category panels, best-seller carousel, editorial image cards, value cards and a business-model card.
+  Offline, vanilla JS. Tweaks: ?tweaks=1 or press T.
+-->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Ciabatta Club">
+  <meta property="og:title" content="Ciabatta Club · five agents, one human, two thousand customers a month">
+  <meta property="og:description" content="A fictional D2C shop run by five AI agents and one human. Its back office is a hiring case for an AI Operations role.">
+  <meta property="og:image" content="https://ciabatta.droppe.com/assets/img/lifestyle-ultra-comfort-walk-900.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Ciabatta Club · Ultra Comfort, and pairs handmade in Marche</title>
+  <meta name="description" content="Ciabatta Ultra Comfort flip-flops, loafers and socks, and leather pairs handmade in Marche. Shipped straight from the makers in Italy, with free delivery and free 30-day returns across Europe.">
+  <script src="assets/tweaks.js"></script>
+  <link rel="stylesheet" href="assets/site.css">
+  <link rel="stylesheet" href="assets/pages.css">
+  <link rel="preload" as="image" href="assets/img/lifestyle-ultra-comfort-walk.jpg" imagesrcset="assets/img/lifestyle-ultra-comfort-walk-900.jpg 900w, assets/img/lifestyle-ultra-comfort-walk.jpg 1600w" imagesizes="100vw">
+</head>
+<body data-page="home">
+  <div id="chrome-top"></div>
+  <main id="main">
+    <div class="container">
+      <section class="hero" aria-labelledby="hero-h">
+        <div class="hero__media" id="hero-media"></div>
+        <div class="hero__copy">
+          <p class="kicker">The Ultra Comfort collection</p>
+          <h1 id="hero-h" class="display">Soft underfoot, all summer long.</h1>
+          <div class="hero__ctas">
+            <a class="btn btn--white" href="/product?model=ULT&amp;color=SND">Shop flip-flops</a>
+            <a class="btn btn--white" href="/product?model=LOF&amp;color=SND">Shop loafers</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" aria-label="Shop by category">
+        <div class="panels">
+          <a class="panel reveal" href="/shop?collection=ultra" style="--panel:var(--panel-sand)">
+            <span class="panel__img panel__img--cut"><img src="assets/img/tile-ultra-comfort-sand.webp" alt="" loading="lazy" decoding="async"></span>
+            <span class="pill-label">Ultra Comfort</span>
+          </a>
+          <a class="panel panel--oval reveal" href="/shop?type=Loafer" style="--panel:var(--panel-sage)">
+            <span class="panel__img panel__img--cut"><img src="assets/img/tile-ultra-comfort-loafer-sand.webp" alt="" loading="lazy" decoding="async"></span>
+            <span class="pill-label">Loafers</span>
+          </a>
+          <a class="panel reveal" href="/shop?type=Socks" style="--panel:var(--panel-clay)">
+            <span class="panel__img panel__img--cut"><img src="assets/img/tile-ultra-comfort-socks-oat.webp" alt="" loading="lazy" decoding="async"></span>
+            <span class="pill-label">Socks</span>
+          </a>
+          <a class="panel reveal" href="/shop?collection=marche" style="--panel:var(--panel-stone)">
+            <span class="panel__img panel__img--cut"><img src="assets/img/tile-amalfi-cognac.webp" alt="" loading="lazy" decoding="async"></span>
+            <span class="pill-label">Handmade in Marche</span>
+          </a>
+        </div>
+      </section>
+    </div>
+
+    <div class="section" id="rail-best"></div>
+
+    <section class="section container" aria-label="Stories">
+      <div class="editorial">
+        <a class="ed reveal" href="/shop?collection=ultra">
+          <img src="assets/img/lifestyle-ultra-comfort-man-900.jpg" srcset="assets/img/lifestyle-ultra-comfort-man-900.jpg 900w, assets/img/lifestyle-ultra-comfort-man.jpg 1600w" sizes="(min-width: 60em) 33vw, 100vw" alt="A man in a linen shirt on a stone wall above the coast, wearing Ultra Comfort flip-flops" style="object-position:52% 55%" loading="lazy" decoding="async">
+          <h3 class="display">Summer on the coast</h3>
+          <span class="btn btn--outline-white">Shop Ultra Comfort</span>
+        </a>
+        <a class="ed reveal" href="/product?model=LOF&amp;color=SND">
+          <img src="assets/img/lifestyle-loafer-steps-900.jpg" srcset="assets/img/lifestyle-loafer-steps-900.jpg 900w, assets/img/lifestyle-loafer-steps.jpg 1600w" sizes="(min-width: 60em) 33vw, 100vw" alt="Sand Ultra Comfort loafers on sunlit stone steps beside an olive tree" style="object-position:50% 62%" loading="lazy" decoding="async">
+          <h3 class="display">New: the loafer</h3>
+          <span class="btn btn--outline-white">Shop loafers</span>
+        </a>
+        <a class="ed reveal" href="/shop?collection=marche">
+          <img src="assets/img/lifestyle-scene-terrace-900.jpg" srcset="assets/img/lifestyle-scene-terrace-900.jpg 900w, assets/img/lifestyle-scene-terrace.jpg 1600w" sizes="(min-width: 60em) 33vw, 100vw" alt="A lemon-tree terrace with a linen armchair and a view of the sea" style="object-position:35% 55%" loading="lazy" decoding="async">
+          <h3 class="display">Made in Marche</h3>
+          <span class="btn btn--outline-white">Explore</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="section container" aria-label="Why Ciabatta Club">
+      <div class="values">
+        <div class="value reveal"><p class="kicker">All-day comfort</p><p>A deep, cushioned footbed that gives a little as you walk, and straps with nothing hard against your skin.</p></div>
+        <div class="value reveal"><p class="kicker">Shipped straight from Italy</p><p>There’s no warehouse in between. Every order leaves the maker within 1–2 working days and travels with GLS.</p></div>
+        <div class="value reveal"><p class="kicker">Free 30-day returns</p><p>Wrong size? Send it back for free. Each returned pair is checked by hand, and perfect pairs find a new home.</p></div>
+      </div>
+      <div class="materials">
+        <a class="mat reveal" href="/product?model=ULT&amp;color=SND">
+          <span class="mat__img mat__img--pack"><img src="assets/img/ultra-comfort-sand-900.jpg" srcset="assets/img/ultra-comfort-sand-900.jpg 900w, assets/img/ultra-comfort-sand.jpg 1600w" sizes="(min-width: 60em) 60vw, 100vw" alt="Ultra Comfort flip-flops in sand, showing the thick cushioned footbed" loading="lazy" decoding="async"></span>
+          <span class="mat__body"><span class="kicker muted">What it’s made of</span><h3 class="display">Light and airy, like the bread</h3><p>Ciabatta is named after the bread, and the sole is built the same way: a moulded foam full of small air pockets, soft where you land and springy where you push off.</p></span>
+        </a>
+        <a class="mat mat--knit reveal" href="/product?model=SOX&amp;color=OAT">
+          <span class="mat__img"><img src="assets/img/material-knit-900.jpg" srcset="assets/img/material-knit-900.jpg 900w, assets/img/material-knit.jpg 1400w" sizes="(min-width: 60em) 40vw, 100vw" alt="Close-up of the sock knit, ribbed outside with terry loops inside" loading="lazy" decoding="async"></span>
+          <span class="mat__body"><span class="kicker muted">The socks</span><h3 class="display">Ribbed outside, terry inside</h3><p>A ribbed leg and soft terry loops under the foot, so they sit cushioned inside the loafers.</p></span>
+        </a>
+      </div>
+    </section>
+
+    <section class="section container" id="how" aria-labelledby="route-h">
+      <div class="model reveal">
+        <div>
+          <p class="kicker muted">How Ciabatta Club works</p>
+          <h2 id="route-h" class="display">From Italy to your door</h2>
+          <p class="lede">We’re a small online shop for two makers. We don’t keep a warehouse: every pair ships straight from the maker, and returns go to one hub in the Netherlands.</p>
+          <div class="model__photo"><img src="assets/img/lifestyle-scene-stairs-900.jpg" srcset="assets/img/lifestyle-scene-stairs-900.jpg 900w, assets/img/lifestyle-scene-stairs.jpg 1600w" sizes="(min-width: 60em) 40vw, 100vw" alt="Whitewashed stairs leading down to the sea" style="object-position:72% 40%" loading="lazy" decoding="async"></div>
+        </div>
+        <div>
+          <ol class="route">
+            <li><span class="num">01</span><div><h3>Shipped by the maker</h3><p>Ultra Comfort ships from Ciabatta; the handmade pairs from the Ortensi family workshop. Both hand your order to GLS within 1–2 working days.</p><span class="where">Bergamo · Porto Sant’Elpidio</span></div></li>
+            <li><span class="num">02</span><div><h3>Free returns to Venlo</h3><p>Wrong size, or changed your mind? Returns are free for 30 days. Drop the parcel at any DHL point and it travels to our returns hub.</p><span class="where">Kade Returns · Venlo, NL</span></div></li>
+            <li><span class="num">03</span><div><h3>Checked by hand, offered again</h3><p>Every returned pair is inspected. Perfect pairs go back on sale and are sent on from Venlo; anything less goes back to the maker where it can.</p><span class="where">Resold from Venlo</span></div></li>
+            <li><span class="num">04</span><div><h3>Pay the way you like</h3><p>Card, PayPal, or pay later by invoice within 14 days. We refund within 3 working days of the returns check.</p><span class="where">Card · PayPal · Invoice</span></div></li>
+          </ol>
+          <p style="margin-top:24px"><a class="link-arrow" href="/how-it-works">Delivery, returns and payments in detail</a></p>
+        </div>
+      </div>
+    </section>
+
+    <div class="section" id="rail-marche"></div>
+
+    <section class="section container" id="size-finder" aria-labelledby="finder-h">
+      <div class="finder" id="finder-app">
+        <div>
+          <p class="kicker muted">Size finder</p>
+          <h2 id="finder-h" class="display">Your size, in ten seconds</h2>
+          <div id="finder-controls"></div>
+        </div>
+        <div class="finder__result" id="finder-result" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <div id="rail-viewed"></div>
+  </main>
+  <div id="chrome-bottom"></div>
+  <script src="assets/catalog.js"></script>
+  <script src="assets/shop.js"></script>
+  <script src="assets/pages.js"></script>
+</body>
+</html>

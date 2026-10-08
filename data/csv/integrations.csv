@@ -1,0 +1,11 @@
+name,kind,owner,schedule,status,last_run_at,last_success_at,consecutive_failures,last_error,alerting
+ortensi_order_api,REST API,leo,on each order; status every 30 min,ok,2026-06-15T06:30:00Z,2026-06-15T06:30:00Z,0,,none
+ortensi_stock_feed,REST API (pull),system,every 2 h,failing,2026-06-15T06:00:00Z,2026-06-12T04:00:00Z,37,"401 Unauthorized {""errore"":""token scaduto""}",none
+gls_tracking_poll,REST API (poll),tina,every 15 min,ok,2026-06-15T06:30:00Z,2026-06-15T06:30:00Z,0,,none
+gls_tracking_webhooks,webhook (push),,on each tracking event,"available, not enabled",,,0,,none
+dhl_returns_tracking,REST API (poll),paolo,hourly,ok,2026-06-15T06:00:00Z,2026-06-15T06:00:00Z,0,,none
+kade_receipts_sftp,SFTP daily file,paolo,daily 05:00,ok,2026-06-15T05:00:00Z,2026-06-15T05:00:00Z,0,,email to ops@ on failure
+card_psp_webhooks,webhook (push),paolo,on each payment event,ok,2026-06-15T06:12:00Z,2026-06-15T06:12:00Z,0,,none
+ciabatta_orders_email,email (one per order),leo,on each order,ok,2026-06-15T06:21:00Z,2026-06-15T06:21:00Z,0,,none
+ciabatta_sftp,SFTP (orders in; stock and tracking out),,orders every 30 min; stock daily 06:00; tracking hourly,"credentials issued 9 Mar, not set up",,,0,,none
+paypal_api,REST API,paolo,on demand; disputes daily,ok,2026-06-15T02:00:00Z,2026-06-15T02:00:00Z,0,,none

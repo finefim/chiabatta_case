@@ -1,0 +1,16 @@
+[
+  { "name": "ortensi_create_order", "description": "Send an order to Ortensi's B2B API. Returns the raw HTTP response.",
+    "parameters": { "type": "object", "properties": { "riferimento": { "type": "string" }, "righe": { "type": "array", "items": { "type": "object" } }, "indirizzo": { "type": "object" } }, "required": ["riferimento", "righe"] } },
+  { "name": "ortensi_list_orders", "description": "List Ortensi orders, optionally by stato.",
+    "parameters": { "type": "object", "properties": { "stato": { "type": "string" } } } },
+  { "name": "ortensi_cancel_order", "description": "Cancel an Ortensi order.",
+    "parameters": { "type": "object", "properties": { "ordine": { "type": "string" } }, "required": ["ordine"] } },
+  { "name": "mail_send", "description": "Send an email.",
+    "parameters": { "type": "object", "properties": { "to": { "type": "string" }, "subject": { "type": "string" }, "body": { "type": "string" } }, "required": ["to", "body"] } },
+  { "name": "inbox_label", "description": "Label an email in the ops inbox and add a note.",
+    "parameters": { "type": "object", "properties": { "email_id": { "type": "string" }, "labels": { "type": "array", "items": { "type": "string" } }, "note": { "type": "string" } }, "required": ["email_id", "labels"] } },
+  { "name": "update_supplier_order", "description": "Write status or tracking to our supplier_orders table.",
+    "parameters": { "type": "object", "properties": { "supplier_order_id": { "type": "string" }, "status": { "type": "string" }, "tracking_number": { "type": "string" }, "note": { "type": "string" } }, "required": ["supplier_order_id"] } },
+  { "name": "channel_post", "description": "Post in #ops-agents.",
+    "parameters": { "type": "object", "properties": { "text": { "type": "string" } }, "required": ["text"] } }
+]

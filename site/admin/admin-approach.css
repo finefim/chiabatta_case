@@ -1,0 +1,34 @@
+/* Approach tab: the first page to read. Builds on admin-impact.css and admin-plan.css. */
+.approach .ns { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); gap: 24px; border-top: 4px solid var(--ink); }
+.approach .ns .k { font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-3); font-weight: 600; }
+.approach .ns__h { font: 400 28px/1.15 var(--display); text-transform: none; letter-spacing: 0; color: var(--ink); margin: 6px 0 10px; }
+.approach .ns__h .faint { font-size: 16px; }
+.approach .ns__l p { margin: 0; color: var(--ink-2); font-size: 15px; max-width: 62ch; }
+.approach .ns__r { display: grid; gap: 6px; align-content: start; }
+.approach .ns__row { display: flex; justify-content: space-between; gap: 12px; padding: 8px 12px; border-radius: 10px; background: var(--paper); font-size: 14px; }
+.approach .ns__row b { font: 600 15px var(--mono); }
+.approach .ns__neg { background: color-mix(in oklch, var(--bad) 12%, transparent); }
+.approach .ns__neg b { color: var(--bad); }
+.approach .ns__goal { background: color-mix(in oklch, #1A73A8 12%, transparent); }
+.approach .ns__goal b { color: #1A73A8; }
+.approach .ns__r p { margin: 2px 0 0; font-size: 12.5px; }
+.approach .lane .big { font: 400 22px/1.2 var(--display); color: var(--ink); margin: 4px 0 8px; }
+.approach .lane .big .faint { font: 12.5px var(--body); }
+.approach .lane .btn { justify-self: start; }
+.approach ol.kft { margin: 4px 0 0; padding-left: 20px; display: grid; gap: 6px; font-size: 14px; }
+.approach .deeper .lane { text-decoration: none; color: inherit; transition: transform 120ms ease, box-shadow 120ms ease; }
+.approach .deeper .lane:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(30, 26, 22, 0.08); }
+.approach table.found td:first-child { width: 110px; }
+.approach table.found td.mono, .approach table.rt td.mono { white-space: nowrap; }
+@media (max-width: 980px) { .approach .ns { grid-template-columns: 1fr; } }
+@media (max-width: 700px) { .approach table.rt td.mono { white-space: normal; } .approach table.rt { font-size: 12.5px; } }
+.approach .card:has(> table.rt) { overflow-x: auto; }
+@media (max-width: 700px) { .approach table.rt th:nth-child(3), .approach table.rt td:nth-child(3) { display: none; } .approach table.found th:nth-child(3), .approach table.found td:nth-child(3) { display: table-cell; } .approach table.found td:first-child { width: auto; } }
+/* Seven links in the top bar now: keep them clear of the centred brand on laptop widths */
+@media (min-width: 981px) and (max-width: 1560px) { .top__link { padding: 12px 8px; letter-spacing: 0.04em; font-size: 11.5px; } }
+@media (min-width: 981px) and (max-width: 1320px) { .top__brand span { display: none; } }
+@media (min-width: 981px) and (max-width: 1180px) { .top__link { padding: 12px 6px; font-size: 11px; letter-spacing: 0.02em; } }
+@media (min-width: 981px) and (max-width: 1320px) { .top__brand { margin-left: 16px; } }
+.top__sep { display: inline-block; width: 1px; height: 22px; background: currentColor; opacity: 0.25; margin: 0 10px; align-self: center; flex: none; }
+@media (max-width: 980px) { .top__sep { display: none; } }
+@media (min-width: 981px) and (max-width: 1320px) { .top__sep { margin: 0 4px; } }

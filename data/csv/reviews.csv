@@ -1,0 +1,186 @@
+review_id,created_at,order_id,customer_id,sku,product,rating,title,body,language,verified,reviewer
+RV-3001,2026-05-25T16:32:42Z,CC-10171,cus_20177,POS-OLV-36,Positano,4,Perfect,Perfect fit and quick delivery.,en,1,Lucas L.
+RV-3002,2026-05-26T07:15:16Z,CC-10001,cus_20001,POS-OLV-45,Positano,3,Too many emails,"Comfortable, but I got four “on its way” emails and then nothing for days.",en,1,Nils H.
+RV-3003,2026-05-26T08:21:21Z,CC-10191,cus_20184,ISC-BLK-37,Ischia Slide,4,Best pair I own,The best pair I have owned.,de,1,Lukas S.
+RV-3004,2026-05-26T12:37:43Z,CC-10072,cus_20113,CAP-BLK-44,Capri,5,Soft from day one,"Soft from day one, no breaking in.",en,1,Emilia L.
+RV-3005,2026-05-27T09:37:55Z,CC-10063,cus_20041,CAP-NAV-46,Capri,4,Soft from day one,"Soft from day one, no breaking in.",en,1,Sem D.
+RV-3006,2026-05-27T11:56:42Z,CC-10139,cus_20145,ISC-CRM-44,Ischia Slide,4,Best pair I own,The best pair I have owned.,de,1,Jan L.
+RV-3007,2026-05-28T03:04:25Z,CC-10005,cus_20058,ISC-CRM-43,Ischia Slide,4,Best pair I own,The best pair I have owned.,en,1,Chiara F.
+RV-3008,2026-05-28T18:24:32Z,CC-10038,cus_20053,ULT-BLK-42,Ultra Comfort,3,"Good, not great","Good quality, a bit stiff at first.",en,1,Juho N.
+RV-3009,2026-05-28T18:24:51Z,CC-10283,cus_20247,AMA-NAT-38,Amalfi,4,So comfortable,"So comfortable, I bought a second pair.",en,1,Klara S.
+RV-3010,2026-05-29T01:38:27Z,CC-10247,cus_20264,CAP-BLK-36,Capri,4,Best pair I own,The best pair I have owned.,en,1,Sem M.
+RV-3011,2026-05-29T06:12:52Z,CC-10085,cus_20086,ULT-SND-41,Ultra Comfort,4,Best pair I own,The best pair I have owned.,en,1,Camille D.
+RV-3012,2026-05-29T08:36:00Z,CC-10185,cus_20150,CAP-NAV-39,Capri,1,"Great product, painful returns","Love the pair, but returning a size took three weeks to refund.",en,1,Sem V.
+RV-3013,2026-05-29T09:55:55Z,CC-10131,cus_20034,ULT-WHT-43,Ultra Comfort,4,Worth it,"Great quality, worth the price.",de,1,Max W.
+RV-3014,2026-05-29T11:48:55Z,CC-10281,cus_20249,CAP-WHT-39,Capri,5,Perfect,Perfect fit and quick delivery.,de,1,Nina K.
+RV-3015,2026-05-29T12:38:32Z,CC-10075,cus_20102,LOF-NAV-40,Ultra Comfort Loafer,2,"Good, not great","Good quality, a bit stiff at first.",de,1,Julia B.
+RV-3016,2026-05-29T12:58:04Z,CC-10260,cus_20266,ISC-BLK-37,Ischia Slide,4,Perfect,Perfect fit and quick delivery.,en,1,Fleur J.
+RV-3017,2026-05-29T13:07:48Z,CC-10062,cus_20015,ULT-SND-44,Ultra Comfort,5,Amazing,The products are amazing and I loved the whole experience!,de,1,Jan B.
+RV-3018,2026-05-29T19:08:30Z,CC-10232,cus_20223,POR-SND-45,Portofino,5,Best pair I own,The best pair I have owned.,en,1,Alva A.
+RV-3019,2026-05-30T11:02:53Z,CC-10583,cus_20544,AMA-COG-44,Amalfi,5,Best pair I own,The best pair I have owned.,en,1,Lucas R.
+RV-3020,2026-05-31T10:26:53Z,CC-10249,cus_20250,ISC-BLK-41,Ischia Slide,4,Worth it,"Great quality, worth the price.",en,1,Lotte d.
+RV-3021,2026-05-31T12:12:02Z,CC-10376,cus_20349,ULT-BLK-45,Ultra Comfort,3,"Comfy, slow delivery","Nice pair, but delivery took over a week and nobody told me why.",en,1,Noor V.
+RV-3022,2026-05-31T18:19:17Z,CC-10392,cus_20126,CAP-BLK-41,Capri,3,"Good, not great","Good quality, a bit stiff at first.",en,1,Fleur S.
+RV-3023,2026-05-31T19:47:39Z,CC-10369,cus_20366,ISC-BLK-45,Ischia Slide,4,Perfect,Perfect fit and quick delivery.,en,1,Hugo B.
+RV-3024,2026-06-01T05:26:54Z,CC-10388,cus_20368,CAP-WHT-40,Capri,5,Soft from day one,"Soft from day one, no breaking in.",de,1,Florian M.
+RV-3025,2026-06-01T08:10:12Z,CC-10090,cus_20068,CAP-NAV-43,Capri,2,"Two sizes, one headache",Ordered two sizes to find mine. Sent one back and waited ages for the money.,en,1,Emma M.
+RV-3026,2026-06-01T18:03:15Z,CC-10441,cus_20400,POS-OLV-46,Positano,2,Too many emails,"Comfortable, but I got four “on its way” emails and then nothing for days.",en,1,Alva N.
+RV-3027,2026-06-01T19:07:07Z,CC-10540,cus_20524,CAP-BLK-43,Capri,5,Perfect,Perfect fit and quick delivery.,de,1,Jan K.
+RV-3028,2026-06-01T22:47:00Z,CC-10512,cus_20492,ULT-BLK-45,Ultra Comfort,5,Worth it,"Great quality, worth the price.",de,1,Julian H.
+RV-3029,2026-06-01T22:48:21Z,CC-10354,cus_20291,LOF-SND-41,Ultra Comfort Loafer,3,Too many emails,"Comfortable, but I got four “on its way” emails and then nothing for days.",en,1,Sem J.
+RV-3030,2026-06-02T06:12:07Z,CC-10457,cus_20410,AMA-BLK-39,Amalfi,5,Worth it,"Great quality, worth the price.",de,1,Sarah P.
+RV-3031,2026-06-02T08:43:57Z,CC-10180,cus_20127,LOF-TPE-38,Ultra Comfort Loafer,2,"Great product, painful returns","Love the pair, but returning a size took three weeks to refund.",en,1,Thijs P.
+RV-3032,2026-06-02T14:02:19Z,CC-10499,cus_20514,CAP-WHT-41,Capri,4,So comfortable,"So comfortable, I bought a second pair.",de,1,Lukas S.
+RV-3033,2026-06-03T07:57:00Z,CC-10243,cus_20111,CAP-BLK-41,Capri,2,"Tolles Produkt, schlechte Retoure","Super bequem, aber die Erstattung kam erst nach drei Wochen.",de,1,Paul S.
+RV-3034,2026-06-03T09:16:30Z,CC-10031,cus_20051,POR-BRN-36,Portofino,1,"Comfortable, slow refund","The quality is lovely, but nobody could tell me where my return was.",en,1,Sara E.
+RV-3035,2026-06-03T09:27:33Z,CC-10207,cus_20209,AMA-COG-46,Amalfi,2,"Tolles Produkt, schlechte Retoure","Super bequem, aber die Erstattung kam erst nach drei Wochen.",de,1,Julian M.
+RV-3036,2026-06-03T14:17:45Z,CC-10466,cus_20465,CAP-BLK-44,Capri,4,So comfortable,"So comfortable, I bought a second pair.",en,1,Veera V.
+RV-3037,2026-06-03T20:40:06Z,CC-10399,cus_20360,LOF-SND-44,Ultra Comfort Loafer,3,"Good, not great","Good quality, a bit stiff at first.",en,1,Wilma H.
+RV-3038,2026-06-04T07:19:31Z,CC-10116,cus_20098,LOF-NAV-38,Ultra Comfort Loafer,2,"Qualität top, Rückgabe nicht","Tolles Produkt, aber die Rücksendung dauert ewig.",de,1,Lena R.
+RV-3039,2026-06-04T08:10:57Z,CC-10053,cus_20006,ULT-WHT-39,Ultra Comfort,1,Sieht schnell schmutzig aus,"Bequem, aber auf dem Weiß sieht man jeden Fleck.",de,1,Max K.
+RV-3040,2026-06-04T08:12:04Z,CC-10306,cus_20314,AMA-COG-39,Amalfi,2,"Beautiful, but the exchange",Beautiful pair. Exchanging a size shouldn’t take a month.,en,1,Juho V.
+RV-3041,2026-06-04T22:52:07Z,CC-10687,cus_20633,ULT-SND-39,Ultra Comfort,5,Soft from day one,"Soft from day one, no breaking in.",en,1,Magnus H.
+RV-3042,2026-06-05T01:24:38Z,CC-10728,cus_20678,CAP-NAV-44,Capri,5,Soft from day one,"Soft from day one, no breaking in.",en,1,Emilia K.
+RV-3043,2026-06-05T05:16:58Z,CC-10258,cus_20239,POS-TAN-41,Positano,2,"Great product, painful returns","Love the pair, but returning a size took three weeks to refund.",en,1,Lotte S.
+RV-3044,2026-06-05T08:43:04Z,CC-10307,cus_20293,POS-OLV-42,Positano,2,"Comfortable, slow refund","The quality is lovely, but nobody could tell me where my return was.",en,1,Hugo M.
+RV-3045,2026-06-05T10:44:26Z,CC-10606,cus_20538,ULT-WHT-36,Ultra Comfort,3,The white marks straight away,"Comfortable, but the white shows every mark after one wear.",en,1,Iida N.
+RV-3046,2026-06-05T13:43:06Z,CC-10069,cus_20116,ISC-BLK-45,Ischia Slide,1,"Tolles Produkt, schlechte Retoure","Super bequem, aber die Erstattung kam erst nach drei Wochen.",de,1,Sophie W.
+RV-3047,2026-06-05T14:34:51Z,CC-10504,cus_20530,AMA-NAT-36,Amalfi,2,Too many emails,"Comfortable, but I got four “on its way” emails and then nothing for days.",en,1,Manon M.
+RV-3048,2026-06-05T14:38:56Z,CC-10709,cus_20688,AMA-COG-41,Amalfi,5,Soft from day one,"Soft from day one, no breaking in.",en,1,Hugo E.
+RV-3049,2026-06-06T00:15:49Z,CC-10757,cus_20707,POS-TAN-40,Positano,5,Worth it,"Great quality, worth the price.",en,1,Axel S.
+RV-3050,2026-06-06T04:50:28Z,CC-10417,cus_20354,CAP-WHT-43,Capri,3,Too many emails,"Comfortable, but I got four “on its way” emails and then nothing for days.",de,1,Lukas M.
+RV-3051,2026-06-06T07:58:47Z,CC-10447,cus_20427,ULT-BLK-38,Ultra Comfort,4,Perfect,Perfect fit and quick delivery.,en,1,Fleur M.
+RV-3052,2026-06-06T21:00:43Z,CC-10697,cus_20626,AMA-NAT-36,Amalfi,5,So comfortable,"So comfortable, I bought a second pair.",en,1,Antti R.
+RV-3053,2026-06-07T05:25:35Z,CC-10683,cus_20601,CAP-NAV-44,Capri,4,Best pair I own,The best pair I have owned.,en,1,Francesca F.
+RV-3054,2026-06-07T17:02:29Z,CC-10613,cus_20583,ULT-BLK-37,Ultra Comfort,1,"Comfy, slow delivery","Nice pair, but delivery took over a week and nobody told me why.",en,1,Maja L.
+RV-3055,2026-06-07T23:24:15Z,CC-10931,cus_20885,POS-OLV-42,Positano,2,Too many emails,"Comfortable, but I got four “on its way” emails and then nothing for days.",en,1,Thijs M.
+RV-3056,2026-06-08T00:43:55Z,CC-10874,cus_20846,ISC-CRM-44,Ischia Slide,4,Worth it,"Great quality, worth the price.",en,1,Joonas L.
+RV-3057,2026-06-08T03:34:19Z,CC-10898,cus_20537,POS-TAN-40,Positano,3,"Comfy, slow delivery","Nice pair, but delivery took over a week and nobody told me why.",de,1,Paul B.
+RV-3058,2026-06-08T08:38:03Z,CC-10115,cus_20114,ULT-SND-44,Ultra Comfort,3,"Comfortable, slow refund","The quality is lovely, but nobody could tell me where my return was.",en,1,Eetu M.
+RV-3059,2026-06-08T10:24:48Z,CC-10768,cus_20681,CAP-WHT-45,Capri,4,Best pair I own,The best pair I have owned.,de,1,Max H.
+RV-3060,2026-06-08T12:47:51Z,CC-11147,cus_21032,CAP-BLK-40,Capri,4,So comfortable,"So comfortable, I bought a second pair.",de,1,Theresa B.
+RV-3061,2026-06-08T17:57:17Z,CC-11070,cus_20931,AMA-COG-43,Amalfi,5,Soft from day one,"Soft from day one, no breaking in.",en,1,Louis M.
+RV-3062,2026-06-08T19:47:27Z,CC-10402,cus_20369,ULT-WHT-39,Ultra Comfort,2,Sieht schnell schmutzig aus,"Bequem, aber auf dem Weiß sieht man jeden Fleck.",de,1,Laura B.
+RV-3063,2026-06-09T00:32:32Z,CC-10954,cus_20869,AMA-NAT-45,Amalfi,3,"Good, not great","Good quality, a bit stiff at first.",en,1,Wilma A.
+RV-3064,2026-06-09T03:00:19Z,CC-10823,cus_20758,ULT-SND-42,Ultra Comfort,1,Too many emails,"Comfortable, but I got four “on its way” emails and then nothing for days.",de,1,Hannah M.
+RV-3065,2026-06-09T06:52:14Z,CC-10560,cus_20480,AMA-COG-41,Amalfi,4,Best pair I own,The best pair I have owned.,de,1,Felix B.
+RV-3066,2026-06-09T07:27:32Z,CC-10650,cus_20641,POR-SND-41,Portofino,2,"Good, not great","Good quality, a bit stiff at first.",en,1,Antti K.
+RV-3067,2026-06-09T08:45:35Z,CC-10877,cus_20818,CAP-WHT-40,Capri,5,Best pair I own,The best pair I have owned.,en,1,Lucas G.
+RV-3068,2026-06-09T09:26:38Z,CC-10349,cus_20296,LOF-TPE-42,Ultra Comfort Loafer,2,"Qualität top, Rückgabe nicht","Tolles Produkt, aber die Rücksendung dauert ewig.",de,1,David H.
+RV-3069,2026-06-09T11:02:55Z,CC-11008,cus_20971,ULT-BLK-40,Ultra Comfort,1,Too many emails,"Comfortable, but I got four “on its way” emails and then nothing for days.",en,1,Francesca R.
+RV-3070,2026-06-09T12:01:27Z,CC-10654,cus_20610,CAP-NAV-43,Capri,2,"Beautiful, but the exchange",Beautiful pair. Exchanging a size shouldn’t take a month.,en,1,Iida K.
+RV-3071,2026-06-09T15:22:42Z,CC-11107,cus_21066,CAP-WHT-39,Capri,4,Perfect,Perfect fit and quick delivery.,de,1,Anna K.
+RV-3072,2026-06-09T16:41:33Z,CC-10017,cus_20056,ULT-WHT-43,Ultra Comfort,2,Sieht schnell schmutzig aus,"Bequem, aber auf dem Weiß sieht man jeden Fleck.",de,1,Jan S.
+RV-3073,2026-06-09T22:03:04Z,CC-10616,cus_20593,POS-OLV-38,Positano,2,"Two sizes, one headache",Ordered two sizes to find mine. Sent one back and waited ages for the money.,en,1,Ruben B.
+RV-3074,2026-06-10T03:11:57Z,CC-10929,cus_20905,ISC-BLK-43,Ischia Slide,2,Too many emails,"Comfortable, but I got four “on its way” emails and then nothing for days.",en,1,Emilia N.
+RV-3075,2026-06-10T04:24:20Z,CC-10848,cus_20759,ULT-BLK-44,Ultra Comfort,1,"Comfy, slow delivery","Nice pair, but delivery took over a week and nobody told me why.",de,1,Nina K.
+RV-3076,2026-06-10T11:51:22Z,CC-10864,cus_20816,CAP-NAV-38,Capri,5,Perfect,Perfect fit and quick delivery.,en,1,Linnea H.
+RV-3077,2026-06-10T13:15:45Z,CC-11236,cus_20186,ISC-BLK-39,Ischia Slide,5,Soft from day one,"Soft from day one, no breaking in.",en,1,Anouk M.
+RV-3078,2026-06-10T14:51:31Z,CC-10963,cus_20855,ULT-SND-42,Ultra Comfort,3,"Comfy, slow delivery","Nice pair, but delivery took over a week and nobody told me why.",en,1,Noor D.
+RV-3079,2026-06-10T21:01:47Z,CC-11011,cus_20999,ULT-BLK-43,Ultra Comfort,2,Too many emails,"Comfortable, but I got four “on its way” emails and then nothing for days.",en,1,Klara K.
+RV-3080,2026-06-10T21:54:55Z,CC-11110,cus_21009,ISC-CRM-40,Ischia Slide,2,"Comfy, slow delivery","Nice pair, but delivery took over a week and nobody told me why.",de,1,Anna S.
+RV-3081,2026-06-10T23:50:21Z,CC-10950,cus_20873,LOF-SND-36,Ultra Comfort Loafer,1,"Comfy, slow delivery","Nice pair, but delivery took over a week and nobody told me why.",en,1,Mads L.
+RV-3082,2026-06-11T01:35:01Z,CC-10964,cus_20918,POS-TAN-38,Positano,5,Worth it,"Great quality, worth the price.",en,1,Hugo E.
+RV-3083,2026-06-11T02:58:27Z,CC-10935,cus_20865,LOF-TPE-43,Ultra Comfort Loafer,4,So comfortable,"So comfortable, I bought a second pair.",en,1,Fleur D.
+RV-3084,2026-06-11T03:07:27Z,CC-10740,cus_20233,LOF-NAV-42,Ultra Comfort Loafer,2,"Nice, but returns…",Would buy again if returns were easier. Very comfortable though.,en,1,Noor V.
+RV-3085,2026-06-11T06:09:47Z,CC-10825,cus_20769,CAP-BLK-43,Capri,2,"Good, not great","Good quality, a bit stiff at first.",de,1,Paul K.
+RV-3086,2026-06-11T09:25:38Z,CC-10248,cus_20257,CAP-BLK-39,Capri,2,"Tolles Produkt, schlechte Retoure","Super bequem, aber die Erstattung kam erst nach drei Wochen.",de,1,Sophie M.
+RV-3087,2026-06-11T09:29:54Z,CC-11161,cus_21042,AMA-NAT-42,Amalfi,2,"Comfy, slow delivery","Nice pair, but delivery took over a week and nobody told me why.",en,1,Mads H.
+RV-3088,2026-06-11T09:32:24Z,CC-11135,cus_21017,ULT-BLK-38,Ultra Comfort,3,"Comfy, slow delivery","Nice pair, but delivery took over a week and nobody told me why.",en,1,Klara N.
+RV-3089,2026-06-11T09:51:32Z,CC-10394,cus_20380,ULT-SND-40,Ultra Comfort,1,"Nice, but returns…",Would buy again if returns were easier. Very comfortable though.,en,1,Julie W.
+RV-3090,2026-06-11T10:58:37Z,CC-11377,cus_21259,CAP-BLK-38,Capri,4,So comfortable,"So comfortable, I bought a second pair.",de,1,Lukas M.
+RV-3091,2026-06-11T13:30:00Z,CC-10527,cus_20504,CAP-NAV-38,Capri,2,"Comfortable, slow refund","The quality is lovely, but nobody could tell me where my return was.",en,1,Fleur V.
+RV-3092,2026-06-11T14:30:00Z,CC-10706,cus_20647,ULT-BLK-39,Ultra Comfort,2,"Beautiful, but the exchange",Beautiful pair. Exchanging a size shouldn’t take a month.,en,1,Sofia H.
+RV-3093,2026-06-11T15:30:00Z,CC-10255,cus_20281,POR-BRN-37,Portofino,1,"Qualität top, Rückgabe nicht","Tolles Produkt, aber die Rücksendung dauert ewig.",de,1,Lukas L.
+RV-3094,2026-06-11T15:30:00Z,CC-10525,cus_20469,CAP-NAV-42,Capri,3,"Great product, painful returns","Love the pair, but returning a size took three weeks to refund.",en,1,Maja E.
+RV-3095,2026-06-11T17:53:45Z,CC-10866,cus_20837,ULT-SND-38,Ultra Comfort,5,Worth it,"Great quality, worth the price.",de,1,David S.
+RV-3096,2026-06-11T19:13:48Z,CC-10932,cus_20875,ULT-WHT-43,Ultra Comfort,3,The white marks straight away,"Comfortable, but the white shows every mark after one wear.",en,1,Lucas L.
+RV-3097,2026-06-11T20:30:00Z,CC-10880,cus_20788,POS-TAN-44,Positano,3,"Two sizes, one headache",Ordered two sizes to find mine. Sent one back and waited ages for the money.,en,1,Sem P.
+RV-3098,2026-06-11T21:30:00Z,CC-11239,cus_21126,ULT-WHT-36,Ultra Comfort,2,The white marks straight away,"Comfortable, but the white shows every mark after one wear.",en,1,Andrea R.
+RV-3099,2026-06-11T21:50:08Z,CC-10968,cus_20906,POR-SND-41,Portofino,1,"Good, not great","Good quality, a bit stiff at first.",en,1,Linnea L.
+RV-3100,2026-06-11T22:26:37Z,CC-10985,cus_20911,LOF-NAV-44,Ultra Comfort Loafer,4,So comfortable,"So comfortable, I bought a second pair.",en,1,Bram J.
+RV-3101,2026-06-11T22:30:00Z,CC-10158,cus_20168,AMA-NAT-41,Amalfi,2,"Comfortable, slow refund","The quality is lovely, but nobody could tell me where my return was.",en,1,Elise L.
+RV-3102,2026-06-12T00:13:44Z,CC-10200,cus_20200,ULT-BLK-43,Ultra Comfort,4,Perfect,Perfect fit and quick delivery.,en,1,Sara F.
+RV-3103,2026-06-12T00:30:00Z,CC-10786,cus_20721,ISC-CRM-40,Ischia Slide,2,"Great product, painful returns","Love the pair, but returning a size took three weeks to refund.",en,1,Léa R.
+RV-3104,2026-06-12T00:30:00Z,CC-11326,cus_21191,LOF-NAV-45,Ultra Comfort Loafer,3,"Nice, but returns…",Would buy again if returns were easier. Very comfortable though.,en,1,Louis D.
+RV-3105,2026-06-12T01:30:00Z,CC-10515,cus_20518,LOF-TPE-39,Ultra Comfort Loafer,2,"Qualität top, Rückgabe nicht","Tolles Produkt, aber die Rücksendung dauert ewig.",de,1,Lena S.
+RV-3106,2026-06-12T01:30:00Z,CC-10785,cus_20730,CAP-BLK-38,Capri,1,"Comfortable, slow refund","The quality is lovely, but nobody could tell me where my return was.",en,1,Inès R.
+RV-3107,2026-06-12T01:30:00Z,CC-11145,cus_21054,CAP-NAV-40,Capri,2,"Two sizes, one headache",Ordered two sizes to find mine. Sent one back and waited ages for the money.,en,1,Veera J.
+RV-3108,2026-06-12T02:30:00Z,CC-10694,cus_20178,AMA-COG-36,Amalfi,2,"Qualität top, Rückgabe nicht","Tolles Produkt, aber die Rücksendung dauert ewig.",de,1,Lukas K.
+RV-3109,2026-06-12T02:30:00Z,CC-11144,cus_21006,AMA-NAT-41,Amalfi,1,"Tolles Produkt, schlechte Retoure","Super bequem, aber die Erstattung kam erst nach drei Wochen.",de,1,Julia S.
+RV-3110,2026-06-12T02:43:15Z,CC-11040,cus_20643,ISC-BLK-40,Ischia Slide,5,So comfortable,"So comfortable, I bought a second pair.",de,1,Lukas L.
+RV-3111,2026-06-12T03:28:57Z,CC-11031,cus_20695,ULT-BLK-38,Ultra Comfort,5,Soft from day one,"Soft from day one, no breaking in.",en,1,Jesse M.
+RV-3112,2026-06-12T04:30:00Z,CC-11052,cus_20983,LOF-NAV-39,Ultra Comfort Loafer,1,"Tolles Produkt, schlechte Retoure","Super bequem, aber die Erstattung kam erst nach drei Wochen.",de,1,Florian H.
+RV-3113,2026-06-12T05:06:22Z,CC-10832,cus_20751,ULT-SND-43,Ultra Comfort,4,Soft from day one,"Soft from day one, no breaking in.",en,1,Nils N.
+RV-3114,2026-06-12T05:30:00Z,CC-10601,cus_20563,CAP-BLK-39,Capri,2,"Tolles Produkt, schlechte Retoure","Super bequem, aber die Erstattung kam erst nach drei Wochen.",de,1,Sarah M.
+RV-3115,2026-06-12T06:30:00Z,CC-10780,cus_20781,POR-BRN-38,Portofino,1,"Nice, but returns…",Would buy again if returns were easier. Very comfortable though.,en,1,Anouk S.
+RV-3116,2026-06-12T07:30:00Z,CC-10599,cus_20561,ULT-WHT-42,Ultra Comfort,1,Sieht schnell schmutzig aus,"Bequem, aber auf dem Weiß sieht man jeden Fleck.",de,1,Felix L.
+RV-3117,2026-06-12T07:30:00Z,CC-10779,cus_20772,LOF-TPE-40,Ultra Comfort Loafer,3,"Tolles Produkt, schlechte Retoure","Super bequem, aber die Erstattung kam erst nach drei Wochen.",de,1,Sophie B.
+RV-3118,2026-06-12T07:47:27Z,CC-11002,cus_20881,ULT-WHT-37,Ultra Comfort,3,Sieht schnell schmutzig aus,"Bequem, aber auf dem Weiß sieht man jeden Fleck.",de,1,David S.
+RV-3119,2026-06-12T08:25:00Z,CC-10891,cus_20787,CAP-BLK-40,Capri,4,Best pair I own,The best pair I have owned.,en,1,Giulia R.
+RV-3120,2026-06-12T08:30:00Z,CC-10868,cus_20785,LOF-NAV-40,Ultra Comfort Loafer,1,"Tolles Produkt, schlechte Retoure","Super bequem, aber die Erstattung kam erst nach drei Wochen.",de,1,Miriam W.
+RV-3121,2026-06-12T08:30:00Z,CC-11318,cus_21173,POS-TAN-43,Positano,4,Best pair I own,The best pair I have owned.,de,1,Julia K.
+RV-3122,2026-06-12T09:30:00Z,CC-11137,cus_21021,CAP-NAV-37,Capri,2,"Love them, hate the refund wait","Product 5 stars, service 1 star: still waiting for my refund.",en,1,Alva L.
+RV-3123,2026-06-12T09:30:00Z,CC-11587,cus_21525,CAP-WHT-43,Capri,2,"Great product, painful returns","Love the pair, but returning a size took three weeks to refund.",en,1,Chiara E.
+RV-3124,2026-06-12T11:29:17Z,CC-11406,cus_21303,ISC-CRM-42,Ischia Slide,5,Best pair I own,The best pair I have owned.,en,1,Louis P.
+RV-3125,2026-06-12T12:30:00Z,CC-11674,cus_21602,ULT-BLK-40,Ultra Comfort,1,"Tolles Produkt, schlechte Retoure","Super bequem, aber die Erstattung kam erst nach drei Wochen.",de,1,Sven R.
+RV-3126,2026-06-12T12:51:06Z,CC-11343,cus_21278,AMA-BLK-42,Amalfi,5,Worth it,"Great quality, worth the price.",de,1,Max W.
+RV-3127,2026-06-12T14:30:00Z,CC-11132,cus_21005,POS-TAN-39,Positano,1,"Tolles Produkt, schlechte Retoure","Super bequem, aber die Erstattung kam erst nach drei Wochen.",de,1,Julia W.
+RV-3128,2026-06-12T14:30:00Z,CC-11402,cus_21288,ISC-BLK-39,Ischia Slide,1,"Love them, hate the refund wait","Product 5 stars, service 1 star: still waiting for my refund.",en,1,Sara F.
+RV-3129,2026-06-12T15:30:00Z,CC-11311,cus_21216,CAP-WHT-45,Capri,1,"Comfortable, slow refund","The quality is lovely, but nobody could tell me where my return was.",en,1,Thijs P.
+RV-3130,2026-06-12T16:54:25Z,CC-10585,cus_20549,ULT-BLK-38,Ultra Comfort,1,"Qualität top, Rückgabe nicht","Tolles Produkt, aber die Rücksendung dauert ewig.",de,1,Julian M.
+RV-3131,2026-06-12T17:52:34Z,CC-11269,cus_20204,CAP-WHT-36,Capri,4,Soft from day one,"Soft from day one, no breaking in.",de,1,Lukas L.
+RV-3132,2026-06-12T18:30:00Z,CC-10408,cus_20350,LOF-TPE-39,Ultra Comfort Loafer,1,"Great product, painful returns","Love the pair, but returning a size took three weeks to refund.",en,1,Eetu M.
+RV-3133,2026-06-12T18:30:00Z,CC-11308,cus_21201,POR-BRN-40,Portofino,2,"Nice, but returns…",Would buy again if returns were easier. Very comfortable though.,en,1,Maja A.
+RV-3134,2026-06-12T20:30:00Z,CC-11216,cus_21123,POS-TAN-44,Positano,2,"Love them, hate the refund wait","Product 5 stars, service 1 star: still waiting for my refund.",en,1,Mads P.
+RV-3135,2026-06-12T21:16:39Z,CC-10473,cus_20396,AMA-COG-42,Amalfi,1,"Great product, painful returns","Love the pair, but returning a size took three weeks to refund.",en,1,Freja P.
+RV-3136,2026-06-12T22:30:00Z,CC-10584,cus_20542,ULT-WHT-40,Ultra Comfort,2,Sieht schnell schmutzig aus,"Bequem, aber auf dem Weiß sieht man jeden Fleck.",de,1,Sven R.
+RV-3137,2026-06-12T22:30:00Z,CC-10944,cus_20863,CAP-BLK-41,Capri,2,"Tolles Produkt, schlechte Retoure","Super bequem, aber die Erstattung kam erst nach drei Wochen.",de,1,Sarah G.
+RV-3138,2026-06-12T23:30:00Z,CC-10673,cus_20627,ULT-BLK-39,Ultra Comfort,1,"Love them, hate the refund wait","Product 5 stars, service 1 star: still waiting for my refund.",en,1,Camille G.
+RV-3139,2026-06-13T00:30:00Z,CC-10492,cus_20423,CAP-WHT-45,Capri,2,"Tolles Produkt, schlechte Retoure","Super bequem, aber die Erstattung kam erst nach drei Wochen.",de,1,Laura S.
+RV-3140,2026-06-13T02:30:00Z,CC-11120,cus_21067,POR-SND-42,Portofino,1,"Tolles Produkt, schlechte Retoure","Super bequem, aber die Erstattung kam erst nach drei Wochen.",de,1,Anna S.
+RV-3141,2026-06-13T03:30:00Z,CC-11119,cus_21062,POS-OLV-43,Positano,4,Soft from day one,"Soft from day one, no breaking in.",en,1,Veera V.
+RV-3142,2026-06-13T04:30:00Z,CC-10488,cus_20446,LOF-SND-42,Ultra Comfort Loafer,3,"Love them, hate the refund wait","Product 5 stars, service 1 star: still waiting for my refund.",en,1,Fleur P.
+RV-3143,2026-06-13T04:30:00Z,CC-10668,cus_20651,POS-OLV-40,Positano,3,"Comfortable, slow refund","The quality is lovely, but nobody could tell me where my return was.",en,1,Ida L.
+RV-3144,2026-06-13T04:30:00Z,CC-11028,cus_20948,AMA-BLK-36,Amalfi,1,"Two sizes, one headache",Ordered two sizes to find mine. Sent one back and waited ages for the money.,en,1,Laura J.
+RV-3145,2026-06-13T05:28:32Z,CC-11049,cus_20940,LOF-NAV-42,Ultra Comfort Loafer,4,Worth it,"Great quality, worth the price.",de,1,Felix K.
+RV-3146,2026-06-13T06:30:00Z,CC-10486,cus_20399,ULT-SND-39,Ultra Comfort,2,"Qualität top, Rückgabe nicht","Tolles Produkt, aber die Rücksendung dauert ewig.",de,1,Felix H.
+RV-3147,2026-06-13T06:30:00Z,CC-11026,cus_20950,ULT-WHT-38,Ultra Comfort,3,The white marks straight away,"Comfortable, but the white shows every mark after one wear.",en,1,Marie W.
+RV-3148,2026-06-13T07:30:00Z,CC-10485,cus_20397,LOF-TPE-41,Ultra Comfort Loafer,1,"Comfortable, slow refund","The quality is lovely, but nobody could tell me where my return was.",en,1,Antti L.
+RV-3149,2026-06-13T09:30:00Z,CC-11113,cus_21007,AMA-COG-38,Amalfi,2,"Great product, painful returns","Love the pair, but returning a size took three weeks to refund.",en,1,Luca F.
+RV-3150,2026-06-13T12:30:00Z,CC-10930,cus_20924,POS-OLV-41,Positano,1,"Love them, hate the refund wait","Product 5 stars, service 1 star: still waiting for my refund.",en,1,Giulia E.
+RV-3151,2026-06-13T13:05:02Z,CC-11398,cus_21226,POS-OLV-37,Positano,5,Soft from day one,"Soft from day one, no breaking in.",en,1,Ville R.
+RV-3152,2026-06-13T13:30:00Z,CC-11199,cus_21143,LOF-SND-43,Ultra Comfort Loafer,3,"Beautiful, but the exchange",Beautiful pair. Exchanging a size shouldn’t take a month.,en,1,Chloé M.
+RV-3153,2026-06-13T15:54:23Z,CC-11222,cus_21148,ULT-SND-40,Ultra Comfort,4,Soft from day one,"Soft from day one, no breaking in.",en,1,Iida M.
+RV-3154,2026-06-13T18:10:16Z,CC-10464,cus_20328,LOF-SND-43,Ultra Comfort Loafer,3,"Qualität top, Rückgabe nicht","Tolles Produkt, aber die Rücksendung dauert ewig.",de,1,Lena B.
+RV-3155,2026-06-13T19:30:00Z,CC-10653,cus_20640,CAP-BLK-42,Capri,4,So comfortable,"So comfortable, I bought a second pair.",en,1,Wilma H.
+RV-3156,2026-06-13T20:07:07Z,CC-11365,cus_21264,CAP-BLK-39,Capri,4,Perfect,Perfect fit and quick delivery.,en,1,Iida K.
+RV-3157,2026-06-13T20:36:28Z,CC-10444,cus_20407,CAP-WHT-38,Capri,1,"Tolles Produkt, schlechte Retoure","Super bequem, aber die Erstattung kam erst nach drei Wochen.",de,1,Felix L.
+RV-3158,2026-06-13T22:30:00Z,CC-11640,cus_21472,CAP-WHT-38,Capri,2,"Great product, painful returns","Love the pair, but returning a size took three weeks to refund.",en,1,Louis B.
+RV-3159,2026-06-13T23:30:00Z,CC-10919,cus_20789,ULT-WHT-41,Ultra Comfort,1,The white marks straight away,"Comfortable, but the white shows every mark after one wear.",en,1,Veera V.
+RV-3160,2026-06-14T00:30:00Z,CC-11098,cus_20022,CAP-NAV-42,Capri,2,"Qualität top, Rückgabe nicht","Tolles Produkt, aber die Rücksendung dauert ewig.",de,1,Jonas H.
+RV-3161,2026-06-14T00:43:33Z,CC-11655,cus_21467,POS-OLV-38,Positano,5,Perfect,Perfect fit and quick delivery.,en,1,Lotte V.
+RV-3162,2026-06-14T01:23:01Z,CC-11125,cus_21064,ULT-WHT-46,Ultra Comfort,2,Sieht schnell schmutzig aus,"Bequem, aber auf dem Weiß sieht man jeden Fleck.",de,1,Lukas M.
+RV-3163,2026-06-14T03:18:38Z,CC-10445,cus_20445,LOF-SND-39,Ultra Comfort Loafer,1,"Beautiful, but the exchange",Beautiful pair. Exchanging a size shouldn’t take a month.,en,1,Lukas S.
+RV-3164,2026-06-14T03:36:14Z,CC-10926,cus_20860,ULT-BLK-38,Ultra Comfort,2,"Comfy, slow delivery","Nice pair, but delivery took over a week and nobody told me why.",en,1,Luca R.
+RV-3165,2026-06-14T04:08:52Z,CC-10962,cus_20891,AMA-NAT-40,Amalfi,4,Perfect,Perfect fit and quick delivery.,en,1,Johan J.
+RV-3166,2026-06-14T05:30:00Z,CC-10463,cus_20395,POS-TAN-36,Positano,2,"Two sizes, one headache",Ordered two sizes to find mine. Sent one back and waited ages for the money.,en,1,Julie J.
+RV-3167,2026-06-14T08:41:53Z,CC-11609,cus_21505,CAP-NAV-46,Capri,3,Too many emails,"Comfortable, but I got four “on its way” emails and then nothing for days.",de,1,Nina R.
+RV-3168,2026-06-14T11:18:09Z,CC-10365,cus_20367,POS-OLV-43,Positano,2,"Nice, but returns…",Would buy again if returns were easier. Very comfortable though.,en,1,Jesse B.
+RV-3169,2026-06-14T11:32:20Z,CC-11123,cus_21008,ISC-CRM-41,Ischia Slide,3,"Good, not great","Good quality, a bit stiff at first.",de,1,Nina B.
+RV-3170,2026-06-14T12:30:00Z,CC-10366,cus_20376,LOF-SND-39,Ultra Comfort Loafer,2,"Tolles Produkt, schlechte Retoure","Super bequem, aber die Erstattung kam erst nach drei Wochen.",de,1,Jonas W.
+RV-3171,2026-06-14T13:30:00Z,CC-10905,cus_20804,ULT-SND-41,Ultra Comfort,1,"Qualität top, Rückgabe nicht","Tolles Produkt, aber die Rücksendung dauert ewig.",de,1,Paul B.
+RV-3172,2026-06-14T13:34:01Z,CC-11646,cus_21510,CAP-WHT-45,Capri,4,So comfortable,"So comfortable, I bought a second pair.",en,1,Inès D.
+RV-3173,2026-06-14T13:58:04Z,CC-10446,cus_20408,ULT-SND-43,Ultra Comfort,2,"Two sizes, one headache",Ordered two sizes to find mine. Sent one back and waited ages for the money.,en,1,Ruben J.
+RV-3174,2026-06-14T17:30:00Z,CC-11171,cus_21051,ISC-BLK-39,Ischia Slide,2,"Comfortable, slow refund","The quality is lovely, but nobody could tell me where my return was.",en,1,Giulia R.
+RV-3175,2026-06-14T18:30:00Z,CC-11350,cus_21242,ISC-BLK-38,Ischia Slide,1,"Great product, painful returns","Love the pair, but returning a size took three weeks to refund.",en,1,Juho S.
+RV-3176,2026-06-14T19:35:00Z,CC-11263,cus_21203,CAP-NAV-40,Capri,3,"Comfy, slow delivery","Nice pair, but delivery took over a week and nobody told me why.",en,1,Luca R.
+RV-3177,2026-06-14T20:30:00Z,CC-10718,cus_20697,POS-TAN-45,Positano,1,"Comfortable, slow refund","The quality is lovely, but nobody could tell me where my return was.",en,1,Veera N.
+RV-3178,2026-06-14T21:12:54Z,CC-11760,cus_21642,AMA-NAT-39,Amalfi,5,So comfortable,"So comfortable, I bought a second pair.",en,1,Ruben J.
+RV-3179,2026-06-14T21:30:00Z,CC-11347,cus_21230,AMA-BLK-45,Amalfi,4,Worth it,"Great quality, worth the price.",de,1,Laura W.
+RV-3180,2026-06-14T22:30:00Z,CC-11076,cus_20995,CAP-BLK-39,Capri,1,"Two sizes, one headache",Ordered two sizes to find mine. Sent one back and waited ages for the money.,en,1,Emilia M.
+RV-3181,2026-06-14T23:13:34Z,CC-11480,cus_21443,CAP-NAV-43,Capri,2,Too many emails,"Comfortable, but I got four “on its way” emails and then nothing for days.",de,1,Theresa H.
+RV-3182,2026-06-15T01:30:00Z,CC-10353,cus_20341,LOF-SND-39,Ultra Comfort Loafer,1,"Two sizes, one headache",Ordered two sizes to find mine. Sent one back and waited ages for the money.,en,1,Andrea B.
+RV-3183,2026-06-15T02:30:00Z,CC-11252,cus_21176,LOF-NAV-40,Ultra Comfort Loafer,2,"Nice, but returns…",Would buy again if returns were easier. Very comfortable though.,en,1,Andrea E.
+RV-3184,2026-06-15T04:30:00Z,CC-10350,cus_20294,LOF-SND-44,Ultra Comfort Loafer,3,"Nice, but returns…",Would buy again if returns were easier. Very comfortable though.,en,1,Ville M.
+RV-3185,2026-06-15T04:50:42Z,CC-11313,cus_21208,LOF-SND-40,Ultra Comfort Loafer,4,Worth it,"Great quality, worth the price.",en,1,Jesse J.

@@ -1,0 +1,43 @@
+/* Handoffs tab. Builds on admin-impact.css and admin-plan.css (tiles, owner pills, flow steps). */
+.hand .flow.hflow { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); }
+.hand .flow.hflow .step b { font-size: 18px; }
+.hbars { display: grid; gap: 6px; }
+.hb { display: grid; grid-template-columns: minmax(0, 300px) minmax(0, 1fr) 150px; gap: 12px; align-items: center; font-size: 13.5px; }
+.hb__k { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.hb__t { position: relative; height: 18px; }
+.hb__t .b { position: absolute; left: 0; border-radius: 0 4px 4px 0; }
+.hb__t .asis { top: 0; height: 10px; background: #C2552B; }
+.hb__t .jr { top: 12px; height: 6px; background: #1A73A8; }
+.hb__v { text-align: right; font-size: 12.5px; white-space: nowrap; }
+.hlist { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+.hcard { display: grid; gap: 8px; padding: 16px; }
+.hcard__top { display: grid; grid-template-columns: auto 1fr auto; gap: 10px; align-items: center; }
+.hcard__top b { font: 400 19px/1.2 var(--display); }
+.hcard__meta { font-size: 12px; color: var(--ink-3); }
+.hcard__cols { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.hcard .col { border-radius: 10px; padding: 10px 12px; display: grid; gap: 4px; align-content: start; font-size: 13.5px; }
+.hcard .col p { margin: 0; }
+.hcard .col.asis { background: color-mix(in oklch, #C2552B 8%, transparent); border-left: 3px solid #C2552B; }
+.hcard .col.jr { background: color-mix(in oklch, #1A73A8 8%, transparent); border-left: 3px solid #1A73A8; }
+.hcard .lab { font: 600 11px var(--body); letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-2); }
+.hcard .cost { color: var(--bad); font-size: 13px; }
+.hcard__src { display: flex; flex-wrap: wrap; gap: 4px 10px; font-size: 12px; }
+.hcard__src a { color: var(--sea); }
+table.rt { width: 100%; border-collapse: collapse; font-size: 13.5px; }
+table.rt th { position: static; background: none; padding: 4px 6px; }
+table.rt td { padding: 8px 6px; border-bottom: 1px solid var(--line); vertical-align: top; }
+table.rt td small { display: block; color: var(--ink-3); font-size: 12px; margin-top: 2px; }
+table.rt td.mono { white-space: nowrap; }
+@media (max-width: 1100px) { .hlist { grid-template-columns: 1fr; } .hand .flow.hflow { grid-template-columns: 1fr; } }
+@media (max-width: 700px) { .hb { grid-template-columns: minmax(0, 1fr) auto; } .hb__t { grid-column: 1 / -1; order: 3; } .hcard__cols { grid-template-columns: 1fr; } }
+.hand .tiles { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+@media (max-width: 1100px) { .hand .tiles { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 560px) { .hand .tiles { grid-template-columns: 1fr; } }
+.hand pre.args { overflow-x: auto; white-space: pre; }
+.hand .card, .hand .grid > * { min-width: 0; }
+@media (max-width: 560px) { table.rt td.mono { white-space: normal; } table.rt { table-layout: fixed; } table.rt th:nth-child(2), table.rt td:nth-child(2) { width: 96px; } table.rt th:nth-child(3), table.rt td:nth-child(3) { width: 70px; } }
+.gloss summary { cursor: pointer; font-size: 15px; }
+.gloss__dl { margin-top: 12px; grid-template-columns: 240px 1fr; }
+.gloss__dl dt { font-weight: 600; color: var(--ink); }
+.gloss__dl dd { margin: 0 0 6px; color: var(--ink-2); }
+@media (max-width: 700px) { .gloss__dl { grid-template-columns: 1fr; } }

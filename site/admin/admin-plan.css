@@ -1,0 +1,51 @@
+/* Plan tab: two weeks covering for Sam. Builds on admin-impact.css (tiles, owner pills, tooltips). */
+.lanes3 { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+.lane { border-top: 4px solid var(--lane); display: grid; gap: 6px; align-content: start; }
+.lane .k { font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-3); font-weight: 600; }
+.lane b { font: 400 24px/1.15 var(--display); }
+.lane p { margin: 0; color: var(--ink-2); font-size: 14px; }
+.prog { height: 8px; background: var(--paper-2); border-radius: 99px; overflow: hidden; margin-top: 6px; }
+.prog span { display: block; height: 100%; background: var(--lane); border-radius: 99px; transition: width 240ms ease; }
+.gantt .lanehead { font: 600 11px var(--body); letter-spacing: 0.1em; fill: var(--ink-3); }
+.gantt .rowname { font: 12.5px var(--body); fill: var(--ink); }
+.gantt .rowname.ok { fill: var(--ink-3); }
+.gantt .bar { cursor: pointer; }
+.gantt .hit { fill: transparent; cursor: pointer; }
+.gantt .hit:hover { fill: rgba(232, 197, 71, 0.10); }
+.gantt .tip { min-width: 260px; }
+.days { display: grid; grid-template-columns: 1fr; gap: 22px; }
+.week .daylist { display: grid; grid-template-columns: 1fr; gap: 10px; }
+.dayc .its { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+@media (max-width: 900px) { .dayc .its { grid-template-columns: 1fr; } }
+.week h3 { font: 400 28px/1.1 var(--display); margin: 0 0 10px; }
+.week { display: grid; gap: 10px; }
+.dayc { padding: 14px 16px; display: grid; gap: 8px; }
+.dayh { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+.dayh b { font: 400 20px/1.2 var(--display); }
+.item { display: grid; grid-template-columns: auto 1fr auto; gap: 10px; align-items: start; padding: 10px 12px; border: 1px solid var(--line); border-left: 4px solid var(--lane); border-radius: 10px; background: var(--card); cursor: pointer; }
+.item:hover { background: color-mix(in oklch, var(--lemon) 8%, var(--card)); }
+.item input { width: 18px; height: 18px; margin-top: 2px; accent-color: var(--ink); }
+.item b { font-weight: 600; font-size: 14px; display: block; }
+.item small { display: block; color: var(--ink-2); font-size: 12.5px; margin-top: 2px; }
+.item.done b { text-decoration: line-through; color: var(--ink-3); }
+.item .links { display: flex; flex-wrap: wrap; gap: 4px 10px; margin-top: 6px; }
+.item .links a { font: 12px var(--mono); color: var(--sea); }
+.cont { margin: 0; font-size: 12.5px; }
+.owner.o-me { background: var(--ink); color: var(--paper); }
+.owner.o-elena { background: color-mix(in oklch, var(--terracotta) 14%, transparent); color: var(--terracotta); }
+.owner.o-code { background: color-mix(in oklch, var(--sea) 14%, transparent); color: var(--sea); }
+.owner.o-agent { background: color-mix(in oklch, var(--olive) 18%, transparent); color: var(--olive); }
+.owner.o-supplier { background: color-mix(in oklch, var(--warn) 16%, transparent); color: var(--warn); }
+.grid.three { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.target { border-top: 4px solid var(--lane); }
+.target table { width: 100%; border-collapse: collapse; font-size: 13.5px; }
+.target th { position: static; background: none; padding: 4px 6px; }
+.target td { padding: 8px 6px; border-bottom: 1px solid var(--line); vertical-align: top; }
+.target td small { display: block; font-size: 11.5px; color: var(--ink-3); }
+.target td.mono { white-space: nowrap; text-align: right; }
+.target td:first-child { width: 52%; }
+.target th { text-align: right; } .target th:first-child { text-align: left; }
+ul.plain { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; font-size: 14px; }
+ul.plain li { display: grid; grid-template-columns: auto 1fr; gap: 10px; align-items: baseline; }
+@media (max-width: 1100px) { .grid.three, .lanes3 { grid-template-columns: 1fr; } }
+@media (max-width: 560px) { .target td.mono { white-space: normal; } .target td:first-child { width: auto; } .target { padding: 16px 12px; } }

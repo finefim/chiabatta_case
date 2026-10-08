@@ -1,0 +1,14 @@
+[
+  { "name": "propose_refund", "description": "Put a refund in the approval queue.",
+    "parameters": { "type": "object", "properties": { "order_id": { "type": "string" }, "amount_eur": { "type": "number" }, "reason": { "type": "string" } }, "required": ["order_id", "amount_eur"] } },
+  { "name": "payments_refund", "description": "Refund money through the payment provider.",
+    "parameters": { "type": "object", "properties": { "order_id": { "type": "string" }, "amount_eur": { "type": "number" } }, "required": ["order_id", "amount_eur"] } },
+  { "name": "invoices_approve", "description": "Approve a supplier invoice and schedule payment.",
+    "parameters": { "type": "object", "properties": { "invoice_id": { "type": "string" }, "pay_on": { "type": "string" } }, "required": ["invoice_id"] } },
+  { "name": "dispute_accept", "description": "Accept a dispute and refund the buyer.",
+    "parameters": { "type": "object", "properties": { "dispute_id": { "type": "string" } }, "required": ["dispute_id"] } },
+  { "name": "dispute_contest", "description": "Contest a dispute with evidence text.",
+    "parameters": { "type": "object", "properties": { "dispute_id": { "type": "string" }, "evidence": { "type": "string" } }, "required": ["dispute_id", "evidence"] } },
+  { "name": "channel_post", "description": "Post in #ops-agents.",
+    "parameters": { "type": "object", "properties": { "text": { "type": "string" } }, "required": ["text"] } }
+]

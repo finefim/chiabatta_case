@@ -1,0 +1,6 @@
+[
+  { "name": "channel_post", "description": "Post in a channel.",
+    "parameters": { "type": "object", "properties": { "channel": { "type": "string" }, "text": { "type": "string" } }, "required": ["channel", "text"] } },
+  { "name": "escalate", "description": "Post an escalation in #ops-escalations.",
+    "parameters": { "type": "object", "properties": { "text": { "type": "string" }, "confidence": { "type": "number" } }, "required": ["text"] } }
+]

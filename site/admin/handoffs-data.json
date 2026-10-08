@@ -1,0 +1,803 @@
+{
+ "snapshot": "2026-06-15T06:30:00Z",
+ "routes": {
+  "credentials": {
+   "owner": "human",
+   "sla_h": 24,
+   "why": "Passwords, keys and tokens need an admin. An agent may never skip them."
+  },
+  "supplier_payment": {
+   "owner": "human",
+   "sla_h": 4,
+   "why": "Overdue supplier invoices and credit holds stop a third of the shop."
+  },
+  "commercial": {
+   "owner": "elena",
+   "sla_h": 72,
+   "why": "Prices, terms and partners are Elena’s."
+  },
+  "held_orders": {
+   "owner": "human",
+   "sla_h": 24,
+   "why": "Wait, swap or cancel is a customer decision; Mia then asks each customer."
+  },
+  "order_ops": {
+   "owner": "leo",
+   "sla_h": 4,
+   "why": "One supplier order, one owner, one message to the supplier."
+  },
+  "customer_notice": {
+   "owner": "mia",
+   "sla_h": 24,
+   "why": "A supplier closure or delay customers must hear about."
+  },
+  "dispute": {
+   "owner": "paolo",
+   "sla_h": 0,
+   "why": "Paolo prepares the evidence; due 48 h before the provider’s deadline; a human decides."
+  },
+  "returns_stock": {
+   "owner": "human",
+   "sla_h": 48,
+   "why": "Pairs near Ortensi’s 60-day credit: pallet or resale."
+  },
+  "returns_backlog": {
+   "owner": "human",
+   "sla_h": 24,
+   "why": "Kade scans late: send them the DHL numbers to prioritise (T-1010)."
+  },
+  "integration": {
+   "owner": "human",
+   "sla_h": 72,
+   "why": "A setup the supplier or carrier offers: someone decides and does it."
+  },
+  "tracking_gap": {
+   "owner": "leo",
+   "sla_h": 24,
+   "why": "Orders without tracking: Leo names the cause or escalates."
+  },
+  "approval_queue": {
+   "owner": "human",
+   "sla_h": 4,
+   "why": "Actions waiting for a human click."
+  }
+ },
+ "handoffs": [
+  {
+   "key": "credentials:mail_0002",
+   "topic": "credentials",
+   "about": "mail_0002",
+   "owner": "human",
+   "sla_h": 24,
+   "why": "Passwords, keys and tokens need an admin. An agent may never skip them.",
+   "created": "2026-03-09T10:30:00Z",
+   "due": "2026-03-10T10:30:00Z",
+   "events": [
+    {
+     "at": "2026-03-09T10:30:00Z",
+     "kind": "email",
+     "src": "mail_0002",
+     "who": "Ciabatta IT",
+     "text": "Your SFTP access"
+    }
+   ],
+   "repeats": 1,
+   "as_is": "Leo: “Credentials. Requires admin access, skipped.” Never set up.",
+   "consequence": "Still 1 email per order to Ciabatta, processed once a day; 7 late Ciabatta cancels.",
+   "open_h": 2348.0,
+   "to_human_h": 0.0,
+   "human_by": "2026-03-09T10:30:00Z",
+   "overdue_now": true
+  },
+  {
+   "key": "commercial:ortensi-prices",
+   "topic": "commercial",
+   "about": "ortensi-prices",
+   "owner": "elena",
+   "sla_h": 72,
+   "why": "Prices, terms and partners are Elena’s.",
+   "created": "2026-05-20T08:12:00Z",
+   "due": "2026-05-23T08:12:00Z",
+   "events": [
+    {
+     "at": "2026-05-20T08:12:00Z",
+     "kind": "email",
+     "src": "mail_0003",
+     "who": "Giulia Ortensi",
+     "text": "Listino 2026: aggiornamento prezzi dal 1° giugno / Price list update from 1 June"
+    }
+   ],
+   "repeats": 1,
+   "as_is": "Leo: “Filed, no action needed.” Elena never asked.",
+   "consequence": "+8% paid with 12 days’ notice instead of 30: €3,528 so far, auto-approved by Paolo.",
+   "open_h": 622.3,
+   "to_human_h": 0.0,
+   "human_by": "2026-05-20T08:12:00Z",
+   "overdue_now": true
+  },
+  {
+   "key": "integration:ciabatta-sftp",
+   "topic": "integration",
+   "about": "ciabatta-sftp",
+   "owner": "human",
+   "sla_h": 72,
+   "why": "A setup the supplier or carrier offers: someone decides and does it.",
+   "created": "2026-05-28T08:15:00Z",
+   "due": "2026-05-31T08:15:00Z",
+   "events": [
+    {
+     "at": "2026-05-28T08:15:00Z",
+     "kind": "email",
+     "src": "mail_0005",
+     "who": "Giada Rinaldi",
+     "text": "Orders by email: please move to SFTP"
+    }
+   ],
+   "repeats": 1,
+   "as_is": "Handed to Sam as T-1050; Sam on holiday; unassigned.",
+   "consequence": "650 email orders a month; Ciabatta processes them once a day.",
+   "open_h": 430.2,
+   "to_human_h": 0.0,
+   "human_by": "2026-05-28T08:15:00Z",
+   "overdue_now": true
+  },
+  {
+   "key": "customer_notice:ortensi-closure",
+   "topic": "customer_notice",
+   "about": "ortensi-closure",
+   "owner": "mia",
+   "sla_h": 24,
+   "why": "A supplier closure or delay customers must hear about.",
+   "created": "2026-06-03T07:55:00Z",
+   "due": "2026-06-04T07:55:00Z",
+   "events": [
+    {
+     "at": "2026-06-03T07:55:00Z",
+     "kind": "email",
+     "src": "mail_0008",
+     "who": "Marco Ortensi",
+     "text": "Chiusura magazzino per inventario 11–12 giugno"
+    }
+   ],
+   "repeats": 1,
+   "as_is": "Labelled “newsletter”. Customers not told.",
+   "consequence": "Where-is-my-order chats up 2.1× (Nora, 12 June); Sam’s Easter notice had cut them.",
+   "open_h": 286.6,
+   "to_human_h": 24.0,
+   "human_by": "2026-06-04T07:55:00Z",
+   "overdue_now": true
+  },
+  {
+   "key": "held_orders:POR-SND-38",
+   "topic": "held_orders",
+   "about": "POR-SND-38",
+   "owner": "human",
+   "sla_h": 24,
+   "why": "Wait, swap or cancel is a customer decision; Mia then asks each customer.",
+   "created": "2026-06-04T15:10:00Z",
+   "due": "2026-06-05T15:10:00Z",
+   "events": [
+    {
+     "at": "2026-06-04T15:10:00Z",
+     "kind": "email",
+     "src": "mail_0009",
+     "who": "Chiara",
+     "text": "Ordini in attesa: Portofino Sabbia 38"
+    },
+    {
+     "at": "2026-06-04T15:14:00Z",
+     "kind": "chat",
+     "src": "#ops-agents 06-04T15:14",
+     "who": "leo",
+     "text": "Inbox: Ordini in attesa: Portofino Sabbia 38. Supplier question about 4 orders. Forwarded to Nora."
+    },
+    {
+     "at": "2026-06-04T15:16:00Z",
+     "kind": "chat",
+     "src": "#ops-agents 06-04T15:16",
+     "who": "leo",
+     "text": "@nora Ortensi is asking what to do with 4 orders waiting for POR-SND-38 (partial shipment, wait or cancel the line). Can you route this?"
+    }
+   ],
+   "repeats": 3,
+   "as_is": "Leo → Nora: “Noted, will include in digest.” T-1082 unassigned.",
+   "consequence": "4 orders held by Ortensi since 4 June; customers not told.",
+   "open_h": 255.3,
+   "to_human_h": 0.0,
+   "human_by": "2026-06-04T15:10:00Z",
+   "overdue_now": true
+  },
+  {
+   "key": "supplier_payment:ciabatta-invoices",
+   "topic": "supplier_payment",
+   "about": "ciabatta-invoices",
+   "owner": "human",
+   "sla_h": 4,
+   "why": "Overdue supplier invoices and credit holds stop a third of the shop.",
+   "created": "2026-06-05T08:00:00Z",
+   "due": "2026-06-05T12:00:00Z",
+   "events": [
+    {
+     "at": "2026-06-05T08:00:00Z",
+     "kind": "email",
+     "src": "mail_0010",
+     "who": "Ciabatta Accounts",
+     "text": "Overdue: CB-INV-0518"
+    },
+    {
+     "at": "2026-06-12T14:30:00Z",
+     "kind": "email",
+     "src": "mail_0021",
+     "who": "Ciabatta Accounts",
+     "text": "Final reminder before credit hold"
+    }
+   ],
+   "repeats": 2,
+   "as_is": "Paolo: “Waiting for Sam.” T-1150 unassigned.",
+   "consequence": "Credit hold on 16 June: Ciabatta stops shipping a third of our pairs.",
+   "open_h": 238.5,
+   "to_human_h": 0.0,
+   "human_by": "2026-06-05T08:00:00Z",
+   "overdue_now": true
+  },
+  {
+   "key": "returns_backlog:kade-scans",
+   "topic": "returns_backlog",
+   "about": "kade-scans",
+   "owner": "human",
+   "sla_h": 24,
+   "why": "Kade scans late: send them the DHL numbers to prioritise (T-1010).",
+   "created": "2026-06-06T07:00:00Z",
+   "due": "2026-06-07T07:00:00Z",
+   "events": [
+    {
+     "at": "2026-06-06T07:00:00Z",
+     "kind": "chat",
+     "src": "#ops-agents 06-06T07:00",
+     "who": "paolo",
+     "text": "17 returns delivered to Kade but not scanned yet (oldest: KR-40010, delivered 2026-06-05). Refunds wait for the scan."
+    },
+    {
+     "at": "2026-06-07T07:00:00Z",
+     "kind": "chat",
+     "src": "#ops-agents 06-07T07:00",
+     "who": "paolo",
+     "text": "17 returns delivered to Kade but not scanned yet (oldest: KR-40010, delivered 2026-06-05). Refunds wait for the scan."
+    },
+    {
+     "at": "2026-06-08T07:00:00Z",
+     "kind": "chat",
+     "src": "#ops-agents 06-08T07:00",
+     "who": "paolo",
+     "text": "17 returns delivered to Kade but not scanned yet (oldest: KR-40010, delivered 2026-06-05). Refunds wait for the scan."
+    },
+    {
+     "at": "2026-06-08T09:30:00Z",
+     "kind": "email",
+     "src": "mail_0013",
+     "who": "Kade Returns Client Services",
+     "text": "Intake delays this month"
+    },
+    {
+     "at": "2026-06-09T07:00:00Z",
+     "kind": "chat",
+     "src": "#ops-agents 06-09T07:00",
+     "who": "paolo",
+     "text": "74 returns delivered to Kade but not scanned yet (oldest: KR-40010, delivered 2026-06-05). Refunds wait for the scan."
+    },
+    {
+     "at": "2026-06-10T07:00:00Z",
+     "kind": "chat",
+     "src": "#ops-agents 06-10T07:00",
+     "who": "paolo",
+     "text": "89 returns delivered to Kade but not scanned yet (oldest: KR-40010, delivered 2026-06-05). Refunds wait for the scan."
+    },
+    {
+     "at": "2026-06-11T07:00:00Z",
+     "kind": "chat",
+     "src": "#ops-agents 06-11T07:00",
+     "who": "paolo",
+     "text": "99 returns delivered to Kade but not scanned yet (oldest: KR-40058, delivered 2026-06-05). Refunds wait for the scan."
+    },
+    {
+     "at": "2026-06-12T07:00:00Z",
+     "kind": "chat",
+     "src": "#ops-agents 06-12T07:00",
+     "who": "paolo",
+     "text": "111 returns delivered to Kade but not scanned yet (oldest: KR-40058, delivered 2026-06-05). Refunds wait for the scan."
+    },
+    {
+     "at": "2026-06-13T07:00:00Z",
+     "kind": "chat",
+     "src": "#ops-agents 06-13T07:00",
+     "who": "paolo",
+     "text": "134 returns delivered to Kade but not scanned yet (oldest: KR-40058, delivered 2026-06-05). Refunds wait for the scan."
+    },
+    {
+     "at": "2026-06-14T07:00:00Z",
+     "kind": "chat",
+     "src": "#ops-agents 06-14T07:00",
+     "who": "paolo",
+     "text": "110 returns delivered to Kade but not scanned yet (oldest: KR-40128, delivered 2026-06-05). Refunds wait for the scan."
+    }
+   ],
+   "repeats": 10,
+   "as_is": "Paolo posts the same count every morning; T-1106 unassigned.",
+   "consequence": "31 “where’s my refund?” tasks for Sam (217 min); refunds wait 5–8 days.",
+   "open_h": 215.5,
+   "to_human_h": 0.0,
+   "human_by": "2026-06-06T07:00:00Z",
+   "overdue_now": true
+  },
+  {
+   "key": "returns_stock:kade-ageing",
+   "topic": "returns_stock",
+   "about": "kade-ageing",
+   "owner": "human",
+   "sla_h": 48,
+   "why": "Pairs near Ortensi’s 60-day credit: pallet or resale.",
+   "created": "2026-06-08T06:00:00Z",
+   "due": "2026-06-10T06:00:00Z",
+   "events": [
+    {
+     "at": "2026-06-08T06:00:00Z",
+     "kind": "email",
+     "src": "mail_0012",
+     "who": "Kade Returns Reporting",
+     "text": "Weekly stock report: Ciabatta Club"
+    }
+   ],
+   "repeats": 1,
+   "as_is": "Paolo: “Noted.” T-1092 unassigned.",
+   "consequence": "46 pairs older than 45 days; 24 Ortensi pairs already past the 60-day credit.",
+   "open_h": 168.5,
+   "to_human_h": 0.0,
+   "human_by": "2026-06-08T06:00:00Z",
+   "overdue_now": true
+  },
+  {
+   "key": "dispute:PP-D-22918461",
+   "topic": "dispute",
+   "about": "PP-D-22918461",
+   "owner": "paolo",
+   "sla_h": 0,
+   "why": "Paolo prepares the evidence; due 48 h before the provider’s deadline; a human decides.",
+   "created": "2026-06-09T07:20:00Z",
+   "due": "2026-06-17T23:59:00Z",
+   "events": [
+    {
+     "at": "2026-06-09T07:20:00Z",
+     "kind": "email",
+     "src": "mail_0014",
+     "who": "PayPal",
+     "text": "A buyer opened a dispute (PP-D-22918461)"
+    },
+    {
+     "at": "2026-06-14T07:00:00Z",
+     "kind": "email",
+     "src": "mail_0026",
+     "who": "PayPal",
+     "text": "Reminder: respond to dispute PP-D-22918461 by 19 June"
+    }
+   ],
+   "repeats": 2,
+   "as_is": "Paolo proposes to ACCEPT (under €150) though GLS shows delivered; waits in the queue.",
+   "consequence": "€139 + €15 fee lost if accepted; deadline 19 June.",
+   "open_h": 143.2,
+   "to_human_h": 208.7,
+   "human_by": "2026-06-17T23:59:00Z",
+   "overdue_now": false
+  },
+  {
+   "key": "credentials:mail_0016",
+   "topic": "credentials",
+   "about": "mail_0016",
+   "owner": "human",
+   "sla_h": 24,
+   "why": "Passwords, keys and tokens need an admin. An agent may never skip them.",
+   "created": "2026-06-10T10:05:00Z",
+   "due": "2026-06-11T10:05:00Z",
+   "events": [
+    {
+     "at": "2026-06-10T10:05:00Z",
+     "kind": "email",
+     "src": "mail_0016",
+     "who": "Ortensi IT",
+     "text": "Rinnovo credenziali API B2B / API credentials renewal"
+    }
+   ],
+   "repeats": 1,
+   "as_is": "Leo: “Credential notice. Requires admin access, skipped.” T-1119 unassigned.",
+   "consequence": "Stock feed dead since 12 June (37 failures); the shop sells sizes that are gone.",
+   "open_h": 116.4,
+   "to_human_h": 0.0,
+   "human_by": "2026-06-10T10:05:00Z",
+   "overdue_now": true
+  },
+  {
+   "key": "integration:gls-webhooks",
+   "topic": "integration",
+   "about": "gls-webhooks",
+   "owner": "human",
+   "sla_h": 72,
+   "why": "A setup the supplier or carrier offers: someone decides and does it.",
+   "created": "2026-06-11T08:00:00Z",
+   "due": "2026-06-14T08:00:00Z",
+   "events": [
+    {
+     "at": "2026-06-11T08:00:00Z",
+     "kind": "email",
+     "src": "mail_0017",
+     "who": "GLS",
+     "text": "New: real-time tracking webhooks for your account"
+    }
+   ],
+   "repeats": 1,
+   "as_is": "Labelled “newsletter”.",
+   "consequence": "Tina keeps polling every 15 min: €575 a month.",
+   "open_h": 94.5,
+   "to_human_h": 0.0,
+   "human_by": "2026-06-11T08:00:00Z",
+   "overdue_now": true
+  },
+  {
+   "key": "tracking_gap:no-tracking",
+   "topic": "tracking_gap",
+   "about": "no-tracking",
+   "owner": "leo",
+   "sla_h": 24,
+   "why": "Orders without tracking: Leo names the cause or escalates.",
+   "created": "2026-06-11T08:00:00Z",
+   "due": "2026-06-12T08:00:00Z",
+   "events": [
+    {
+     "at": "2026-06-11T08:00:00Z",
+     "kind": "chat",
+     "src": "#ops-agents 06-11T08:00",
+     "who": "tina",
+     "text": "@leo 50 orders still have no tracking 24h+ after purchase: CC-11101, CC-11237, CC-11258, CC-11276, CC-11293 (+45 more). Can you chase Ortens"
+    },
+    {
+     "at": "2026-06-11T12:00:00Z",
+     "kind": "chat",
+     "src": "#ops-agents 06-11T12:00",
+     "who": "tina",
+     "text": "@leo 58 orders still have no tracking 24h+ after purchase: CC-11101, CC-11237, CC-11258, CC-11276, CC-11293 (+53 more). Can you chase Ortens"
+    },
+    {
+     "at": "2026-06-11T16:00:00Z",
+     "kind": "chat",
+     "src": "#ops-agents 06-11T16:00",
+     "who": "tina",
+     "text": "@leo 56 orders still have no tracking 24h+ after purchase: CC-11101, CC-11237, CC-11258, CC-11276, CC-11293 (+51 more). Can you chase Ortens"
+    },
+    {
+     "at": "2026-06-11T20:00:00Z",
+     "kind": "chat",
+     "src": "#ops-agents 06-11T20:00",
+     "who": "tina",
+     "text": "@leo 83 orders still have no tracking 24h+ after purchase: CC-11101, CC-11237, CC-11258, CC-11276, CC-11293 (+78 more). Can you chase Ortens"
+    },
+    {
+     "at": "2026-06-12T00:00:00Z",
+     "kind": "chat",
+     "src": "#ops-agents 06-12T00:00",
+     "who": "tina",
+     "text": "@leo 102 orders still have no tracking 24h+ after purchase: CC-11101, CC-11237, CC-11258, CC-11276, CC-11293 (+97 more). Can you chase Orten"
+    },
+    {
+     "at": "2026-06-12T04:00:00Z",
+     "kind": "chat",
+     "src": "#ops-agents 06-12T04:00",
+     "who": "tina",
+     "text": "@leo 104 orders still have no tracking 24h+ after purchase: CC-11101, CC-11237, CC-11258, CC-11276, CC-11293 (+99 more). Can you chase Orten"
+    },
+    {
+     "at": "2026-06-12T08:00:00Z",
+     "kind": "chat",
+     "src": "#ops-agents 06-12T08:00",
+     "who": "tina",
+     "text": "@leo 112 orders still have no tracking 24h+ after purchase: CC-11101, CC-11237, CC-11258, CC-11276, CC-11293 (+107 more). Can you chase Orte"
+    },
+    {
+     "at": "2026-06-12T12:00:00Z",
+     "kind": "chat",
+     "src": "#ops-agents 06-12T12:00",
+     "who": "tina",
+     "text": "@leo 129 orders still have no tracking 24h+ after purchase: CC-11101, CC-11237, CC-11258, CC-11276, CC-11293 (+124 more). Can you chase Orte"
+    },
+    {
+     "at": "2026-06-12T16:00:00Z",
+     "kind": "chat",
+     "src": "#ops-agents 06-12T16:00",
+     "who": "tina",
+     "text": "@leo 125 orders still have no tracking 24h+ after purchase: CC-11101, CC-11237, CC-11258, CC-11276, CC-11293 (+120 more). Can you chase Orte"
+    },
+    {
+     "at": "2026-06-12T20:00:00Z",
+     "kind": "chat",
+     "src": "#ops-agents 06-12T20:00",
+     "who": "tina",
+     "text": "@leo 142 orders still have no tracking 24h+ after purchase: CC-11101, CC-11237, CC-11258, CC-11276, CC-11293 (+137 more). Can you chase Orte"
+    },
+    {
+     "at": "2026-06-13T00:00:00Z",
+     "kind": "chat",
+     "src": "#ops-agents 06-13T00:00",
+     "who": "tina",
+     "text": "@leo 162 orders still have no tracking 24h+ after purchase: CC-11101, CC-11237, CC-11258, CC-11276, CC-11293 (+157 more). Can you chase Orte"
+    },
+    {
+     "at": "2026-06-13T04:00:00Z",
+     "kind": "chat",
+     "src": "#ops-agents 06-13T04:00",
+     "who": "tina",
+     "text": "@leo 165 orders still have no tracking 24h+ after purchase: CC-11101, CC-11237, CC-11258, CC-11276, CC-11293 (+160 more). Can you chase Orte"
+    },
+    {
+     "at": "2026-06-13T08:00:00Z",
+     "kind": "chat",
+     "src": "#ops-agents 06-13T08:00",
+     "who": "tina",
+     "text": "@leo 173 orders still have no tracking 24h+ after purchase: CC-11101, CC-11237, CC-11258, CC-11276, CC-11293 (+168 more). Can you chase Orte"
+    },
+    {
+     "at": "2026-06-13T12:00:00Z",
+     "kind": "chat",
+     "src": "#ops-agents 06-13T12:00",
+     "who": "tina",
+     "text": "@leo 194 orders still have no tracking 24h+ after purchase: CC-11101, CC-11237, CC-11258, CC-11276, CC-11293 (+189 more). Can you chase Orte"
+    },
+    {
+     "at": "2026-06-13T16:00:00Z",
+     "kind": "chat",
+     "src": "#ops-agents 06-13T16:00",
+     "who": "tina",
+     "text": "@leo 209 orders still have no tracking 24h+ after purchase: CC-11101, CC-11237, CC-11258, CC-11276, CC-11293 (+204 more). Can you chase Orte"
+    },
+    {
+     "at": "2026-06-13T20:00:00Z",
+     "kind": "chat",
+     "src": "#ops-agents 06-13T20:00",
+     "who": "tina",
+     "text": "@leo 228 orders still have no tracking 24h+ after purchase: CC-11101, CC-11237, CC-11258, CC-11276, CC-11293 (+223 more). Can you chase Orte"
+    },
+    {
+     "at": "2026-06-14T00:00:00Z",
+     "kind": "chat",
+     "src": "#ops-agents 06-14T00:00",
+     "who": "tina",
+     "text": "@leo 245 orders still have no tracking 24h+ after purchase: CC-11101, CC-11237, CC-11258, CC-11276, CC-11293 (+240 more). Can you chase Orte"
+    },
+    {
+     "at": "2026-06-14T04:00:00Z",
+     "kind": "chat",
+     "src": "#ops-agents 06-14T04:00",
+     "who": "tina",
+     "text": "@leo 249 orders still have no tracking 24h+ after purchase: CC-11101, CC-11237, CC-11258, CC-11276, CC-11293 (+244 more). Can you chase Orte"
+    },
+    {
+     "at": "2026-06-14T08:00:00Z",
+     "kind": "chat",
+     "src": "#ops-agents 06-14T08:00",
+     "who": "tina",
+     "text": "@leo 255 orders still have no tracking 24h+ after purchase: CC-11101, CC-11237, CC-11258, CC-11276, CC-11293 (+250 more). Can you chase Orte"
+    },
+    {
+     "at": "2026-06-14T12:00:00Z",
+     "kind": "chat",
+     "src": "#ops-agents 06-14T12:00",
+     "who": "tina",
+     "text": "@leo 269 orders still have no tracking 24h+ after purchase: CC-11101, CC-11237, CC-11258, CC-11276, CC-11293 (+264 more). Can you chase Orte"
+    },
+    {
+     "at": "2026-06-14T16:00:00Z",
+     "kind": "chat",
+     "src": "#ops-agents 06-14T16:00",
+     "who": "tina",
+     "text": "@leo 284 orders still have no tracking 24h+ after purchase: CC-11101, CC-11237, CC-11258, CC-11276, CC-11293 (+279 more). Can you chase Orte"
+    },
+    {
+     "at": "2026-06-14T20:00:00Z",
+     "kind": "chat",
+     "src": "#ops-agents 06-14T20:00",
+     "who": "tina",
+     "text": "@leo 314 orders still have no tracking 24h+ after purchase: CC-11101, CC-11237, CC-11258, CC-11276, CC-11293 (+309 more). Can you chase Orte"
+    },
+    {
+     "at": "2026-06-15T00:00:00Z",
+     "kind": "chat",
+     "src": "#ops-agents 06-15T00:00",
+     "who": "tina",
+     "text": "@leo 342 orders still have no tracking 24h+ after purchase: CC-11101, CC-11237, CC-11258, CC-11276, CC-11293 (+337 more). Can you chase Orte"
+    },
+    {
+     "at": "2026-06-15T04:00:00Z",
+     "kind": "chat",
+     "src": "#ops-agents 06-15T04:00",
+     "who": "tina",
+     "text": "@leo 345 orders still have no tracking 24h+ after purchase: CC-11101, CC-11237, CC-11258, CC-11276, CC-11293 (+340 more). Can you chase Orte"
+    }
+   ],
+   "repeats": 24,
+   "as_is": "Tina asks Leo every 4 h; Leo: “I’ll check again next cycle.” Cause never named.",
+   "consequence": "Gap grew from 50 to 345 orders; the cause (Ortensi closed 11–12 June) was in mail_0008.",
+   "open_h": 94.5,
+   "to_human_h": 24.0,
+   "human_by": "2026-06-12T08:00:00Z",
+   "overdue_now": true
+  },
+  {
+   "key": "order_ops:ORT-26-33678",
+   "topic": "order_ops",
+   "about": "ORT-26-33678",
+   "owner": "leo",
+   "sla_h": 4,
+   "why": "One supplier order, one owner, one message to the supplier.",
+   "created": "2026-06-11T08:18:00Z",
+   "due": "2026-06-11T12:18:00Z",
+   "events": [
+    {
+     "at": "2026-06-11T08:18:00Z",
+     "kind": "chat",
+     "src": "#ops-agents 06-11T08:18",
+     "who": "leo",
+     "text": "Cancel for ORT-26-33678 (CC-11838) refused by Ortensi: 409 \"Ordine già in lavorazione\". I'll email them."
+    },
+    {
+     "at": "2026-06-12T09:05:00Z",
+     "kind": "sent",
+     "src": "mail_0020",
+     "who": "leo",
+     "text": "Annullamento ordine ORT-26-33678 (rif. CC-11838) Hello,\n\nplease cancel order ORT-26-33678 (our ref CC-11838). The customer has cancelled.\n\nT"
+    },
+    {
+     "at": "2026-06-12T09:06:00Z",
+     "kind": "chat",
+     "src": "#ops-agents 06-12T09:06",
+     "who": "leo",
+     "text": "Emailed ordini@ortensi.example to cancel ORT-26-33678 (CC-11838)."
+    },
+    {
+     "at": "2026-06-12T15:30:00Z",
+     "kind": "sent",
+     "src": "mail_0022",
+     "who": "paolo",
+     "text": "Shipping date for ORT-26-33678 Hello,\n\ncould you confirm the shipping date for ORT-26-33678 (our ref CC-11838)? We need it to match your nex"
+    },
+    {
+     "at": "2026-06-12T15:31:00Z",
+     "kind": "chat",
+     "src": "#ops-agents 06-12T15:31",
+     "who": "paolo",
+     "text": "Asked Ortensi amministrazione to confirm the ship date for ORT-26-33678 (CC-11838) so I can match the invoice."
+    },
+    {
+     "at": "2026-06-13T08:47:00Z",
+     "kind": "email",
+     "src": "mail_0024",
+     "who": "Chiara",
+     "text": "Re: Annullamento ordine ORT-26-33678 (rif. CC-11838)"
+    },
+    {
+     "at": "2026-06-13T08:55:00Z",
+     "kind": "chat",
+     "src": "#ops-agents 06-13T08:55",
+     "who": "leo",
+     "text": "Ortensi replied about ORT-26-33678. Looks like an invoice question → @paolo"
+    }
+   ],
+   "repeats": 7,
+   "as_is": "Leo asks to cancel, Paolo asks for a ship date; Leo → Paolo → Leo: “Noted.” T-1151 unassigned.",
+   "consequence": "Ortensi ships its backlog today; the customer was already refunded €89.",
+   "open_h": 94.2,
+   "to_human_h": 4.0,
+   "human_by": "2026-06-11T12:18:00Z",
+   "overdue_now": true
+  },
+  {
+   "key": "held_orders:ciabatta-oos",
+   "topic": "held_orders",
+   "about": "ciabatta-oos",
+   "owner": "human",
+   "sla_h": 24,
+   "why": "Wait, swap or cancel is a customer decision; Mia then asks each customer.",
+   "created": "2026-06-11T09:20:00Z",
+   "due": "2026-06-12T09:20:00Z",
+   "events": [
+    {
+     "at": "2026-06-11T09:20:00Z",
+     "kind": "email",
+     "src": "mail_0018",
+     "who": "Giada Rinaldi",
+     "text": "Out of stock: Ultra Comfort Sand 39–40, Loafer Sand 41–42"
+    }
+   ],
+   "repeats": 1,
+   "as_is": "Leo: “Stock info noted.” T-1132 unassigned.",
+   "consequence": "17 orders held by Ciabatta; shop still shows the sizes in stock.",
+   "open_h": 93.2,
+   "to_human_h": 0.0,
+   "human_by": "2026-06-11T09:20:00Z",
+   "overdue_now": true
+  },
+  {
+   "key": "held_orders:CAP-BLK-42-43",
+   "topic": "held_orders",
+   "about": "CAP-BLK-42-43",
+   "owner": "human",
+   "sla_h": 24,
+   "why": "Wait, swap or cancel is a customer decision; Mia then asks each customer.",
+   "created": "2026-06-12T07:40:00Z",
+   "due": "2026-06-13T07:40:00Z",
+   "events": [
+    {
+     "at": "2026-06-12T07:40:00Z",
+     "kind": "email",
+     "src": "mail_0019",
+     "who": "Marco Ortensi",
+     "text": "Capri Nero 42 e 43 esauriti"
+    }
+   ],
+   "repeats": 1,
+   "as_is": "Leo: “Stock info noted.” T-1136 unassigned.",
+   "consequence": "Orders SOSPESO at Ortensi; the shop keeps selling Capri Nero 42/43.",
+   "open_h": 70.8,
+   "to_human_h": 0.0,
+   "human_by": "2026-06-12T07:40:00Z",
+   "overdue_now": true
+  },
+  {
+   "key": "approval_queue:queue",
+   "topic": "approval_queue",
+   "about": "queue",
+   "owner": "human",
+   "sla_h": 4,
+   "why": "Actions waiting for a human click.",
+   "created": "2026-06-13T08:00:00Z",
+   "due": "2026-06-13T12:00:00Z",
+   "events": [
+    {
+     "at": "2026-06-13T08:00:00Z",
+     "kind": "chat",
+     "src": "#ops-agents 06-13T08:00",
+     "who": "mia",
+     "text": "@sam 25 actions waiting for approval (oldest: 17h)."
+    },
+    {
+     "at": "2026-06-14T08:00:00Z",
+     "kind": "chat",
+     "src": "#ops-agents 06-14T08:00",
+     "who": "mia",
+     "text": "@sam 88 actions waiting for approval (oldest: 41h)."
+    },
+    {
+     "at": "2026-06-15T06:00:00Z",
+     "kind": "chat",
+     "src": "#ops-agents 06-15T06:00",
+     "who": "mia",
+     "text": "@sam 190 actions waiting for approval (oldest: 63h)."
+    }
+   ],
+   "repeats": 3,
+   "as_is": "Mia posts “@sam N actions waiting” to someone on holiday.",
+   "consequence": "194 actions waiting, the oldest 63 h.",
+   "open_h": 46.5,
+   "to_human_h": 0.0,
+   "human_by": "2026-06-13T08:00:00Z",
+   "overdue_now": true
+  }
+ ],
+ "messages": 60,
+ "noise": {
+  "digest": 51,
+  "chat": 93
+ },
+ "summary": {
+  "handoffs": 16,
+  "messages": 60,
+  "open_now": 16,
+  "median_open_days": 7.020833333333333,
+  "max_to_human_h": 208.7
+ }
+}

@@ -1,0 +1,10 @@
+[
+  { "name": "gls_track", "description": "Get all tracking events for one parcel.",
+    "parameters": { "type": "object", "properties": { "tracking_number": { "type": "string" } }, "required": ["tracking_number"] } },
+  { "name": "notifications_list", "description": "List notifications already sent for an order.",
+    "parameters": { "type": "object", "properties": { "order_id": { "type": "string" } }, "required": ["order_id"] } },
+  { "name": "notify_customer", "description": "Email the customer a delivery update.",
+    "parameters": { "type": "object", "properties": { "order_id": { "type": "string" }, "template": { "type": "string" } }, "required": ["order_id", "template"] } },
+  { "name": "channel_post", "description": "Post in #ops-agents.",
+    "parameters": { "type": "object", "properties": { "text": { "type": "string" } }, "required": ["text"] } }
+]

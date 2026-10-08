@@ -1,0 +1,56 @@
+<!doctype html>
+<!-- Ciabatta Club storefront · collection page. Filters live in the URL; ?collection=ultra|marche, ?type=, ?q=. -->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Ciabatta Club">
+  <meta property="og:title" content="Ciabatta Club · five agents, one human, two thousand customers a month">
+  <meta property="og:description" content="A fictional D2C shop run by five AI agents and one human. Its back office is a hiring case for an AI Operations role.">
+  <meta property="og:image" content="https://ciabatta.droppe.com/assets/img/lifestyle-ultra-comfort-walk-900.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Shop · Ciabatta Club</title>
+  <meta name="description" content="Ciabatta Ultra Comfort and handmade flip-flops from Marche. Free delivery and free 30-day returns across Europe.">
+  <script src="assets/tweaks.js"></script>
+  <link rel="stylesheet" href="assets/site.css">
+  <link rel="stylesheet" href="assets/pages.css">
+</head>
+<body data-page="shop">
+  <div id="chrome-top"></div>
+  <main id="main" class="container">
+    <section class="plp-hero" id="plp-hero" aria-label="Collection"></section>
+    <nav class="pillnav" id="pillnav" aria-label="Collections and styles"></nav>
+    <div class="toolbar">
+      <span class="toolbar__count" id="count" aria-live="polite"></span>
+      <div class="toolbar__right">
+        <button class="filter-btn" id="open-filters" type="button">Filters <span class="n" id="filter-n" hidden></span></button>
+        <label class="sr-only" for="sort">Sort by</label>
+        <select class="select" id="sort">
+          <option value="featured">Featured</option>
+          <option value="price-asc">Price: low to high</option>
+          <option value="price-desc">Price: high to low</option>
+          <option value="name">Name</option>
+        </select>
+      </div>
+    </div>
+    <div class="plp">
+      <aside class="facets" id="facets" aria-label="Filters"></aside>
+      <div>
+        <div class="chips" id="chips"></div>
+        <div class="grid" id="grid"></div>
+      </div>
+    </div>
+  </main>
+  <div class="overlay" id="sheet-overlay"></div>
+  <aside class="drawer drawer--sheet" id="sheet" role="dialog" aria-modal="true" aria-labelledby="sheet-h" aria-hidden="true">
+    <div class="drawer__head"><h2 id="sheet-h">Filters</h2><button class="icon-btn" id="sheet-close" type="button" aria-label="Close filters">×</button></div>
+    <div class="drawer__body sheet-body" id="sheet-facets"></div>
+    <div class="drawer__foot"><button class="btn btn--dark btn--lg btn--block" id="sheet-apply" type="button">Show results</button></div>
+  </aside>
+  <div id="chrome-bottom"></div>
+  <script src="assets/catalog.js"></script>
+  <script src="assets/shop.js"></script>
+  <script src="assets/pages.js"></script>
+</body>
+</html>

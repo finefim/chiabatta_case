@@ -1,0 +1,33 @@
+dispute_id,order_id,provider,reason,amount_eur,opened_at,respond_by,status,fee_eur,buyer_message
+PP-D-12264974,CC-10026,paypal,unauthorized,149.00,2026-05-26T10:12:00Z,2026-06-05T23:59:00Z,won,0.00,I did not make this purchase.
+dp_fmgksra9r5hdymy8,CC-10095,card,item_not_received,99.00,2026-05-26T21:26:25Z,2026-06-05T21:26:25Z,accepted,15.00,Never received it.
+PP-D-03580146,CC-10108,paypal,not_as_described,99.00,2026-05-26T23:30:23Z,2026-06-05T23:30:23Z,accepted,15.00,Not what the photos showed.
+dp_wqgt2n1ilcjhuy92,CC-10184,card,item_not_received,139.00,2026-05-28T10:43:56Z,2026-06-07T10:43:56Z,accepted,15.00,Never received it.
+PP-D-67968600,CC-10280,paypal,not_as_described,99.00,2026-05-28T18:15:47Z,2026-06-07T18:15:47Z,won,0.00,Not what the photos showed.
+dp_eft6wlprpq2o3gy7,CC-10043,card,item_not_received,79.00,2026-05-29T14:40:00Z,2026-06-08T23:59:00Z,lost,15.00,Never arrived.
+dp_nw40rmv37ayya5c9,CC-10162,card,credit_not_processed,278.00,2026-05-31T18:07:45Z,2026-06-10T18:07:45Z,won,0.00,"Returned it, no refund."
+dp_1rqeaiwww6bbom8m,CC-10243,card,credit_not_processed,178.00,2026-06-01T06:25:50Z,2026-06-11T06:25:50Z,won,0.00,"Returned it, no refund."
+dp_3g0p3cvfwbzk7zxq,CC-10013,card,item_not_received,99.00,2026-06-01T13:25:51Z,2026-06-11T13:25:51Z,lost,15.00,Never received it.
+PP-D-94157635,CC-10101,paypal,not_as_described,99.00,2026-06-03T09:05:00Z,2026-06-13T23:59:00Z,accepted,15.00,Colour is different from the website.
+PP-D-59090977,CC-10122,paypal,item_not_received,208.00,2026-06-03T16:32:37Z,2026-06-13T16:32:37Z,lost,15.00,Never received it.
+dp_6hnydnrndm7tiog9,CC-10388,card,item_not_received,89.00,2026-06-03T21:27:44Z,2026-06-13T21:27:44Z,lost,15.00,Never received it.
+dp_fd6coejxraeu6pvx,CC-10272,card,credit_not_processed,158.00,2026-06-04T05:32:28Z,2026-06-14T05:32:28Z,won,0.00,"Returned it, no refund."
+PP-D-83310470,CC-10563,paypal,unauthorized,149.00,2026-06-04T20:34:39Z,2026-06-14T20:34:39Z,accepted,15.00,I did not make this purchase.
+dp_z981l0jmolf87s6u,CC-10315,card,item_not_received,79.00,2026-06-04T21:03:28Z,2026-06-14T21:03:28Z,won,0.00,Never received it.
+dp_2cdh9mkw0z9yex1g,CC-10605,card,not_as_described,258.00,2026-06-06T18:57:25Z,2026-06-16T18:57:25Z,open,,Not what the photos showed.
+PP-D-91995515,CC-10434,paypal,unauthorized,119.00,2026-06-07T13:24:04Z,2026-06-17T13:24:04Z,open,,I did not make this purchase.
+dp_stykltahipjossex,CC-10604,card,item_not_received,89.00,2026-06-07T15:41:43Z,2026-06-17T15:41:43Z,open,,Never received it.
+dp_trb6qlb1sedeb0gy,CC-10028,card,not_as_described,228.00,2026-06-08T06:59:09Z,2026-06-18T06:59:09Z,open,,Not what the photos showed.
+dp_wbb5xu2vxpsbjt63,CC-10020,card,credit_not_processed,168.00,2026-06-08T09:16:07Z,2026-06-18T09:16:07Z,open,,"Returned it, no refund."
+PP-D-02563516,CC-10286,paypal,item_not_received,247.00,2026-06-08T11:17:11Z,2026-06-18T11:17:11Z,open,,Never received it.
+PP-D-22918461,CC-11202,paypal,item_not_received,139.00,2026-06-09T07:15:00Z,2026-06-19T23:59:00Z,open,,Paket nie erhalten.
+dp_fs3obya5wt9sklin,CC-10035,card,item_not_received,198.00,2026-06-09T11:51:57Z,2026-06-19T11:51:57Z,open,,Never received it.
+dp_4kfrtvgu1duwv5ek,CC-11238,card,item_not_received,89.00,2026-06-09T15:20:57Z,2026-06-19T15:20:57Z,open,,Never received it.
+dp_lrh7o94kx4k1xgch,CC-10533,card,not_as_described,168.00,2026-06-09T17:57:45Z,2026-06-19T17:57:45Z,open,,Not what the photos showed.
+PP-D-62026088,CC-10362,paypal,not_as_described,89.00,2026-06-10T06:31:29Z,2026-06-20T06:31:29Z,open,,Not what the photos showed.
+PP-D-21044025,CC-10973,paypal,item_not_received,168.00,2026-06-11T12:34:51Z,2026-06-21T12:34:51Z,open,,Never received it.
+dp_fqc35o0ne7vy3x8k,CC-10338,card,item_not_received,89.00,2026-06-12T03:03:33Z,2026-06-22T03:03:33Z,open,,Never received it.
+dp_9n0kp60o13ysaggp,CC-10466,card,not_as_described,89.00,2026-06-12T18:59:33Z,2026-06-22T18:59:33Z,open,,Not what the photos showed.
+PP-D-83744556,CC-10590,paypal,item_not_received,228.00,2026-06-13T10:16:51Z,2026-06-23T10:16:51Z,open,,Never received it.
+dp_ce3kpbtod4q9fpih,CC-11159,card,credit_not_processed,278.00,2026-06-13T17:01:10Z,2026-06-23T17:01:10Z,open,,"Returned it, no refund."
+dp_3agcoxrwwzgu711e,CC-11405,card,item_not_received,119.00,2026-06-13T17:49:29Z,2026-06-23T17:49:29Z,open,,Never received it.

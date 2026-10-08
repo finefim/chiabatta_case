@@ -1,0 +1,10 @@
+invoice_id,supplier,invoice_date,due_date,total_eur,expected_total_eur,status,approved_by,approved_at,payment_scheduled_for
+FT-2026/0412,Calzaturificio Ortensi S.r.l.,2026-05-22,2026-06-21,16797.30,16797.30,approved,paolo (auto),2026-05-22T16:35:00Z,2026-06-21
+FT-2026/0431,Calzaturificio Ortensi S.r.l.,2026-05-29,2026-06-28,25249.50,25249.50,approved,paolo (auto),2026-05-29T16:35:00Z,2026-06-28
+FT-2026/0447,Calzaturificio Ortensi S.r.l.,2026-06-05,2026-07-05,29418.08,27687.20,approved,paolo (auto),2026-06-05T16:35:00Z,2026-07-05
+FT-2026/0462,Calzaturificio Ortensi S.r.l.,2026-06-12,2026-07-12,26959.68,25162.80,approved,paolo (auto),2026-06-12T16:35:00Z,2026-07-12
+CB-INV-0511,Ciabatta S.r.l.,2026-05-11,2026-05-25,9184.50,,paid,sam,2026-05-29T09:40:00Z,2026-05-29
+CB-INV-0518,Ciabatta S.r.l.,2026-05-18,2026-06-01,10412.50,,awaiting_approval,,,
+CB-INV-0525,Ciabatta S.r.l.,2026-05-25,2026-06-08,5371.50,,awaiting_approval,,,
+CB-INV-0601,Ciabatta S.r.l.,2026-06-01,2026-06-15,11073.50,,awaiting_approval,,,
+CB-INV-0608,Ciabatta S.r.l.,2026-06-08,2026-06-22,12605.00,,awaiting_approval,,,

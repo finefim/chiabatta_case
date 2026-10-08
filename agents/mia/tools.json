@@ -1,0 +1,22 @@
+[
+  { "name": "search_orders", "description": "Find orders by order number or customer name. Fuzzy match on names.",
+    "parameters": { "type": "object", "properties": { "query": { "type": "string" } }, "required": ["query"] } },
+  { "name": "get_tracking", "description": "Get the GLS tracking link for an order.",
+    "parameters": { "type": "object", "properties": { "order_id": { "type": "string" } }, "required": ["order_id"] } },
+  { "name": "send_reply", "description": "Send a message to the customer.",
+    "parameters": { "type": "object", "properties": { "conversation_id": { "type": "string" }, "body": { "type": "string" } }, "required": ["conversation_id", "body"] } },
+  { "name": "refund_payment", "description": "Refund money to the customer.",
+    "parameters": { "type": "object", "properties": { "order_id": { "type": "string" }, "amount_eur": { "type": "number" } }, "required": ["order_id", "amount_eur"] } },
+  { "name": "create_discount_code", "description": "Create a discount code for the customer.",
+    "parameters": { "type": "object", "properties": { "customer_id": { "type": "string" }, "percent": { "type": "number" }, "code": { "type": "string" } }, "required": ["customer_id", "percent"] } },
+  { "name": "update_shipping_address", "description": "Change the delivery address of an order.",
+    "parameters": { "type": "object", "properties": { "order_id": { "type": "string" }, "ship_street": { "type": "string" }, "ship_line2": { "type": "string" }, "ship_postcode": { "type": "string" }, "ship_city": { "type": "string" } }, "required": ["order_id"] } },
+  { "name": "cancel_supplier_order", "description": "Cancel the order at the supplier.",
+    "parameters": { "type": "object", "properties": { "supplier_order_id": { "type": "string" } }, "required": ["supplier_order_id"] } },
+  { "name": "create_return_label", "description": "Email the customer a free DHL return label.",
+    "parameters": { "type": "object", "properties": { "order_id": { "type": "string" }, "line_no": { "type": "integer" }, "sku": { "type": "string" } }, "required": ["order_id"] } },
+  { "name": "create_exchange_order", "description": "Send a replacement item now.",
+    "parameters": { "type": "object", "properties": { "order_id": { "type": "string" }, "sku": { "type": "string" }, "price_eur": { "type": "number" } }, "required": ["order_id", "sku"] } },
+  { "name": "escalate", "description": "Ask Sam for help.",
+    "parameters": { "type": "object", "properties": { "message": { "type": "string" } }, "required": ["message"] } }
+]

@@ -1,0 +1,428 @@
+{
+  "window_days": 30,
+  "orders": 2287,
+  "pairs": 3200,
+  "avg_price_incl_vat": 103.696875,
+  "avg_cost_ex_vat": 48.743125,
+  "ortensi_pair_share": 0.6525,
+  "avg_cost_ortensi": 52.43390804597701,
+  "avg_cost_ciabatta": 41.81294964028777,
+  "pairs_per_order": 1.3992129427197202,
+  "return_rate": 0.26091081593927895,
+  "grade_shares": {
+    "A": 0.8083333333333333,
+    "B": 0.15,
+    "C": 0.041666666666666664
+  },
+  "payment_mix": {
+    "card": 0.559685177087888,
+    "paypal": 0.28027984258854394,
+    "invoice": 0.160034980323568
+  },
+  "credit_loss_rate": 0.0330497134344939,
+  "dispute_rate": 0.013992129427197202,
+  "agent_cost_30d_eur": 1306.4630000000009,
+  "kade_stock": {
+    "sold": 46,
+    "available": 168,
+    "to_ortensi": 6,
+    "held_for_claim": 2,
+    "written_off": 16
+  },
+  "products": [
+    {
+      "code": "CAP",
+      "name": "Capri",
+      "supplier": "Ortensi",
+      "pairs": 726,
+      "early": 232,
+      "returned": 44,
+      "price_incl": 89,
+      "cost": 41,
+      "grades": {
+        "A": 17,
+        "B": 3,
+        "C": 0
+      },
+      "return_rate": 0.1896551724137931,
+      "grade_shares": {
+        "A": 0.85,
+        "B": 0.15,
+        "C": 0
+      }
+    },
+    {
+      "code": "ULT",
+      "name": "Ultra Comfort",
+      "supplier": "Ciabatta",
+      "pairs": 532,
+      "early": 166,
+      "returned": 66,
+      "price_incl": 79,
+      "cost": 36,
+      "grades": {
+        "A": 13,
+        "B": 9,
+        "C": 3
+      },
+      "return_rate": 0.39759036144578314,
+      "grade_shares": {
+        "A": 0.52,
+        "B": 0.36,
+        "C": 0.12
+      }
+    },
+    {
+      "code": "AMA",
+      "name": "Amalfi",
+      "supplier": "Ortensi",
+      "pairs": 460,
+      "early": 162,
+      "returned": 37,
+      "price_incl": 119,
+      "cost": 58,
+      "grades": {
+        "A": 18,
+        "B": 0,
+        "C": 0
+      },
+      "return_rate": 0.22839506172839505,
+      "grade_shares": {
+        "A": 1,
+        "B": 0,
+        "C": 0
+      }
+    },
+    {
+      "code": "LOF",
+      "name": "Ultra Comfort Loafer",
+      "supplier": "Ciabatta",
+      "pairs": 388,
+      "early": 123,
+      "returned": 54,
+      "price_incl": 149,
+      "cost": 68,
+      "grades": {
+        "A": 18,
+        "B": 3,
+        "C": 0
+      },
+      "return_rate": 0.43902439024390244,
+      "grade_shares": {
+        "A": 0.8571428571428571,
+        "B": 0.14285714285714285,
+        "C": 0
+      }
+    },
+    {
+      "code": "POS",
+      "name": "Positano",
+      "supplier": "Ortensi",
+      "pairs": 375,
+      "early": 123,
+      "returned": 33,
+      "price_incl": 129,
+      "cost": 63,
+      "grades": {
+        "A": 13,
+        "B": 2,
+        "C": 1
+      },
+      "return_rate": 0.2682926829268293,
+      "grade_shares": {
+        "A": 0.8125,
+        "B": 0.125,
+        "C": 0.0625
+      }
+    },
+    {
+      "code": "ISC",
+      "name": "Ischia Slide",
+      "supplier": "Ortensi",
+      "pairs": 316,
+      "early": 107,
+      "returned": 22,
+      "price_incl": 99,
+      "cost": 47,
+      "grades": {
+        "A": 10,
+        "B": 0,
+        "C": 1
+      },
+      "return_rate": 0.205607476635514,
+      "grade_shares": {
+        "A": 0.9090909090909091,
+        "B": 0,
+        "C": 0.09090909090909091
+      }
+    },
+    {
+      "code": "POR",
+      "name": "Portofino",
+      "supplier": "Ortensi",
+      "pairs": 211,
+      "early": 76,
+      "returned": 19,
+      "price_incl": 139,
+      "cost": 69,
+      "grades": {
+        "A": 8,
+        "B": 1,
+        "C": 0
+      },
+      "return_rate": 0.25,
+      "grade_shares": {
+        "A": 0.8888888888888888,
+        "B": 0.1111111111111111,
+        "C": 0
+      }
+    },
+    {
+      "code": "SOX",
+      "name": "Ultra Comfort Socks",
+      "supplier": "Ciabatta",
+      "pairs": 192,
+      "early": 65,
+      "returned": 0,
+      "price_incl": 19,
+      "cost": 5,
+      "grades": {
+        "A": 0,
+        "B": 0,
+        "C": 0
+      },
+      "return_rate": 0,
+      "grade_shares": {
+        "A": 0,
+        "B": 0,
+        "C": 0
+      }
+    }
+  ],
+  "terms": [
+    {
+      "supplier": "Ortensi",
+      "who": "Calzaturificio Ortensi S.r.l. · family workshop, Porto Sant’Elpidio · agreement since March 2025",
+      "sections": [
+        [
+          "Pricing",
+          [
+            [
+              "Cost price",
+              "List price less 48% trade discount (see products.wholesale_price_eur); +8% on everything shipped from 1 June 2026"
+            ],
+            [
+              "Price changes",
+              "30 days’ written notice"
+            ],
+            [
+              "Retail price",
+              "Recommended retail prices; discounts deeper than 20% need Ortensi’s approval"
+            ],
+            [
+              "Currency and VAT",
+              "EUR; intra-EU reverse charge"
+            ]
+          ]
+        ],
+        [
+          "Payment",
+          [
+            [
+              "Payment terms",
+              "30 days net from invoice date; weekly invoice every Friday"
+            ],
+            [
+              "Cash discount",
+              "2% if paid within 10 days of the invoice date"
+            ],
+            [
+              "Late payment",
+              "Statutory interest (ECB rate + 8%) plus €40 per late invoice"
+            ],
+            [
+              "Credit limit",
+              "€120,000 open balance"
+            ]
+          ]
+        ],
+        [
+          "Logistics",
+          [
+            [
+              "Delivery",
+              "Dropships every order to the customer, DAP, with GLS at €7.90 per parcel"
+            ],
+            [
+              "Cut-off",
+              "Orders in by 12:00 UTC ship the same working day; closed weekends and Italian public holidays"
+            ],
+            [
+              "Minimum order",
+              "None for dropship orders"
+            ]
+          ]
+        ],
+        [
+          "Returns and claims",
+          [
+            [
+              "Unsold returns",
+              "100% credit if received within 60 days of Kade’s scan; return pallet at our cost"
+            ],
+            [
+              "Defects",
+              "12 months; credit against photo and lot number, claimed once a month"
+            ],
+            [
+              "Transit damage",
+              "Report within 48 hours of delivery"
+            ]
+          ]
+        ],
+        [
+          "Commercial",
+          [
+            [
+              "Co-marketing",
+              "€1,500 a month, ended 1 June 2026"
+            ],
+            [
+              "Volume rebate",
+              "None"
+            ],
+            [
+              "Territory",
+              "EU, non-exclusive"
+            ],
+            [
+              "Contract",
+              "12 months, renews automatically; 90 days’ notice"
+            ]
+          ]
+        ],
+        [
+          "Systems",
+          [
+            [
+              "Orders and stock",
+              "B2B API for orders and status; stock feed every 2 hours; API tokens expire every 90 days"
+            ]
+          ]
+        ]
+      ]
+    },
+    {
+      "supplier": "Ciabatta",
+      "who": "Ciabatta S.r.l. · Ultra Comfort brand, warehouse in Bergamo · partner since March 2026",
+      "sections": [
+        [
+          "Pricing",
+          [
+            [
+              "Cost price",
+              "Ultra Comfort €36 · Loafer €68 · Socks €5"
+            ],
+            [
+              "Price changes",
+              "60 days’ notice; prices fixed for the season"
+            ],
+            [
+              "Retail price",
+              "Ultra Comfort €79 · Loafer €149 · Socks €19; promotions deeper than 15% need Ciabatta’s approval"
+            ],
+            [
+              "Currency and VAT",
+              "EUR; intra-EU reverse charge"
+            ]
+          ]
+        ],
+        [
+          "Payment",
+          [
+            [
+              "Payment terms",
+              "14 days net from invoice date; weekly invoice every Monday"
+            ],
+            [
+              "Cash discount",
+              "None"
+            ],
+            [
+              "Late payment",
+              "Credit hold after a final written reminder once anything is more than 7 days overdue; statutory interest plus €40 per late invoice"
+            ],
+            [
+              "Credit limit",
+              "€25,000 open balance"
+            ]
+          ]
+        ],
+        [
+          "Logistics",
+          [
+            [
+              "Delivery",
+              "Dropships every order to the customer, DAP, with GLS at €6.50 per parcel"
+            ],
+            [
+              "Cut-off",
+              "SFTP orders picked up every 30 minutes; email orders once a day at 13:00 Italian time"
+            ],
+            [
+              "Minimum order",
+              "None"
+            ]
+          ]
+        ],
+        [
+          "Returns and claims",
+          [
+            [
+              "Unsold returns",
+              "Not taken back: returns, resale and write-offs are ours"
+            ],
+            [
+              "Defects",
+              "6 months; credit against photo"
+            ],
+            [
+              "Transit damage",
+              "Report within 72 hours of delivery"
+            ]
+          ]
+        ],
+        [
+          "Commercial",
+          [
+            [
+              "Co-marketing",
+              "None"
+            ],
+            [
+              "Volume rebate",
+              "3% on purchases above €100,000 a quarter, paid as a credit note"
+            ],
+            [
+              "Territory",
+              "EU, non-exclusive"
+            ],
+            [
+              "Contract",
+              "12 months from March 2026; 60 days’ notice"
+            ]
+          ]
+        ],
+        [
+          "Systems",
+          [
+            [
+              "Orders and stock",
+              "SFTP for orders, daily stock file and hourly tracking; email orders only while setting up"
+            ]
+          ]
+        ]
+      ]
+    }
+  ]
+}
